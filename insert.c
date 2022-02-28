@@ -277,6 +277,11 @@ void CompileCC(char str[5000], int& strLoc, unsigned char newStream[100], int& s
 	   newStream[streamLen++] = 0x03;
        newStream[streamLen++] = 0x02;
    }
+   else if (strcmp(ptr[0], "ALTPAUSE") == 0)
+   {
+	   newStream[streamLen++] = 0x03;
+       newStream[streamLen++] = 0xA0;
+   }
 
 
 

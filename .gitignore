@@ -1,2 +1,5 @@
 *.nes
 insert_report.txt
+*.ups
+*_converted.txt
+*.bak
