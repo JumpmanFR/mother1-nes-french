@@ -1,5 +1,6 @@
 copy ebb.nes test.nes
 @python converttext.py script.txt eng_table.txt script_converted.txt
+@xkas test.nes ebb.asm
 @insert.exe 1
 @echo.
 ;@del script_converted.txt
