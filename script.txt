@@ -867,7 +867,7 @@
 1B1: @Halt, who goes[BREAK] there?[BREAK][END]
 1B1-E: @Je garde la porte.[BREAK][PAUSE]@Quicé qui va là·?![BREAK][END]
 1B2: @Suspicious guys.[BREAK] I will stop you.[BREAK] Arrghh![BREAK][END]
-1B2-E: @T-Tu es chuchpect·![BREAK][PAUSE]@M-M'obliche pas à te[BREAK] cacher la figure... ![BREAK] (tremblote tremblote)[BREAK][END]
+1B2-E: @T-Tu es chuchpect[03 62]·![BREAK][PAUSE]@M-M'obliche pas à te[BREAK] cacher la figure... ![BREAK] (tremblote tremblote)[BREAK][END]
 1B3: @Something's very[BREAK] strange with the[BREAK] Garrickson baby.[BREAK][PAUSE]@Something very[BREAK] strange indeed.[BREAK][END]
 1B3-E: @Le bébé des Garrickson est[BREAK] bizarre. Genre, SUPER[BREAK] bizarre.[BREAK][END]
 1B4: @Well...[BREAK] 2 plus 3 equals 5,[BREAK] 8 minus 4 equals 4.[BREAK][PAUSE]@I study[BREAK] all the time.[BREAK][END]
@@ -1325,7 +1325,7 @@
 296: @I'll share the[BREAK] secret with you[BREAK] later.[BREAK][END]
 296-E: @J'ai un secret, je te le[BREAK] confierai plus tard.[BREAK][END]
 297: @You come to stay[BREAK] the night again?[BREAK][END]
-297-E: @Oh, tu es revenu passer[BREAK] la nuit ici·?[BREAK][END]
+297-E: @Oh, tu reviens passer la[BREAK] nuit ici·?[BREAK][END]
 298: @Oh, traveller![BREAK][END]
 298-E: @Oh, un voyageur·![BREAK][END]
 299: @The ghost house is[BREAK] not a place for[BREAK] slaying monsters.[BREAK][PAUSE]@There is a...[BREAK] melody, hee-hee,[BREAK] a haunting melody.[BREAK][PAUSE]@Hee-hee-hee.[BREAK][END]
@@ -1493,7 +1493,7 @@
 2EA: @[21 B8 74]'s house is[BREAK] a chateau, not a[BREAK] mansion.[BREAK][PAUSE]@But, I'll bet you[BREAK] already knew that.[BREAK][END]
 2EA-E: @[21 B8 74] vit dans un[BREAK] temple...[BREAK][PAUSE]@Euh, je veux dire une[BREAK] église.[BREAK][PAUSE]@Ah, tu le savais déjà ?[BREAK][END]
 2EB: @There is a chateau[BREAK] in the mountains[BREAK] to the east.[BREAK][PAUSE]@Cough cough[BREAK] cough cough...[BREAK][END]
-2EB-E: @Il y a une église dans les[BREAK] montagnes plus loin vers[BREAK] l'est.[BREAK][PAUSE]@(tousse... tousse...)[BREAK][END]
+2EB-E: @Il y a une église dans les[BREAK] montagnes, plus loin vers[BREAK] l'est.[BREAK][PAUSE]@(tousse... tousse...)[BREAK][END]
 2EC: @You kids are crazy.[BREAK] Running around with[BREAK] just T-shirts on.[BREAK][PAUSE]@Cough cough[BREAK] cough cough...[BREAK][END]
 2EC-E: @Vous les enfants, vous êtes[BREAK] vraiment insouciants et[BREAK] pleins d'énergie...[BREAK][PAUSE]@Porter des habits aussi[BREAK] légers par ce temps... ![BREAK][PAUSE]@(tousse... tousse...)[BREAK][END]
 2ED: @Please say hello to[BREAK] the camel's bones in[BREAK] Yucca Desert.[BREAK][PAUSE]@I knew that camel[BREAK] once upon a time.[BREAK][END]
@@ -2313,9 +2313,9 @@
 484: 
 484-E: Ténèbres
 485: 
-485-E: Aimant PSI
+485-E: Aimant à PSI
 486: 
-486-E: Anti-Bouclr
+486-E: AntiBouclier
 487: 
 487-E: Blocage PSI
 488: 
@@ -3257,7 +3257,7 @@
 65C:  [21 88 05][BREAK] vanished![END]
 65C-E: [03 EA][21 88 05][BREAK]s'est volatilisé[03 EC]·![END]
 65D: [21 80 05] took away[BREAK][21 88 05]'s[BREAK][21 90 05]![END]
-65D-E: [03 E2][21 80 05][BREAK]vole l[03 F1][21 90 05][BREAK][03 ED][21 88 05]·![END]
+65D-E: [03 E2][21 80 05][BREAK]vole [03 F8][21 90 05][BREAK][03 ED][21 88 05]·![END]
 65E: [21 80 05] advanced[BREAK]to the next Level![BREAK][PAUSE][STOP]
 65E-E: [03 E2][21 80 05] gagne un niveau·![BREAK][PAUSE][STOP]
 65F: [21 80 05] learned[BREAK]a new PSI-Power[BREAK]through battle![BREAK][PAUSE][STOP]
@@ -3279,7 +3279,7 @@
 667: [21 80 05] escaped[BREAK]from the Rope.[END]
 667-E: [03 E2][21 80 05][BREAK]s'est défait de ses[BREAK]liens·![END]
 668: Picked up [21 04 6D]![BREAK][PAUSE][STOP]
-668-E: Vous ramassez[BREAK][03 F8][21 04 6D]·![BREAK][PAUSE][STOP]
+668-E: Vous ramassez[BREAK][03 D0][21 04 6D]·![BREAK][PAUSE][STOP]
 669:  [21 88 05] wasn't[BREAK] confused anymore![END]
 669-E: La confusion [03 ED][21 88 05][BREAK]s'est dissipée·![END]
 66A: [21 80 05] woke up.[END]
