@@ -2917,25 +2917,25 @@
 5B2: 
 5B2-E: vaincue[END]
 5B3: 
-5B3-E: Un mauvais rêve dont vous[BREAK]ne vous réveillerez[BREAK]jamais...[END]
+5B3-E: Un mauvais rêve dont vous[BREAK] ne vous réveillerez[BREAK] jamais...[END]
 5B4: 
 5B4-E: P A R T E Z[END]
 5B5: 
-5B5-E: Ça f'ra [23 2A 00 02 00]$ pour ton[BREAK]groupe.[END]
+5B5-E: Ça f'ra [23 2A 00 02 00]$ pour ton[BREAK] groupe.[END]
 5B6: 
-5B6-E: Donc vous inquiétez pas,[BREAK]vous pouvez passer la nuit[BREAK]ici si vous voulez.[END]
+5B6-E: Donc vous inquiétez pas,[BREAK] vous pouvez passer la nuit[BREAK] ici si vous voulez.[END]
 5B7: 
-5B7-E: 
+5B7-E: Revenez passer la nuit ici[BREAK] une prochaine fois, OK ?[END]
 5B8: 
-5B8-E: 
+5B8-E: Oh ? Vous voulez pas[BREAK] rester ?[END]
 5B9: 
-5B9-E: 
+5B9-E: Hum, je ne peux pas vous[BREAK] laisser entrer sans billet.[END]
 5BA: 
-5BA-E: 
+5BA-E: Amusez-vous bien·![END]
 5BB: 
-5BB-E: 
+5BB-E: Je suis très heureux de[BREAK] votre venue[4F]![END]
 5BC: 
-5BC-E: 
+5BC-E: Je sais exactement ce que[BREAK] vous voulez.[END]
 5BD: 
 5BD-E: 
 5BE: 
