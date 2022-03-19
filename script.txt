@@ -531,7 +531,7 @@
 109: @It's too bad that[BREAK] the door to the[BREAK] roof is locked.[BREAK][PAUSE] Maybe you'd like[BREAK] to join me...[BREAK][PAUSE]@I was going to[BREAK] sneak out and play[BREAK] with my Game Boy.[BREAK][END]
 109-E: @La porte qui mène au toit[BREAK] est verrouillée.[BREAK][PAUSE] @Moi aussi je voulais sécher[BREAK] les cours pour écouter de[BREAK] la musique sur le toit·![BREAK][PAUSE]@Comme toi, non·?![BREAK][END]
 10A: @You don't talk[BREAK] very much, do you?[BREAK][END]
-10A-E: @Eh bah, t'es pas très[BREAK] bavard toi, hein·?[BREAK][END]
+10A-E: @Eh bah, t'es pas très[BREAK] bavard[03 62] toi, hein·?[BREAK][END]
 10B: @The gym teacher[BREAK] made me do extra[BREAK] push-ups again.[BREAK][PAUSE]@I'd rather do sit-[BREAK] ups though.[BREAK][END]
 10B-E: @Le prof de sport m'a tapé.[BREAK][PAUSE]@Je devrais peut-être[BREAK] laisser tomber l'école et[BREAK] devenir un délinquant...[BREAK][END]
 10C: @How can you get[BREAK] lost in a[BREAK] schoolyard?[BREAK][PAUSE]@I just can't[BREAK] believe it.[BREAK][END]
@@ -561,7 +561,7 @@
 118: @Don't run in[BREAK] the hall![BREAK][END]
 118-E: @On ne court pas dans les[BREAK] couloirs·![BREAK][END]
 119: @Wait a minute, I[BREAK] don't belive I've[BREAK] seen you before.[BREAK][PAUSE]@You must not be[BREAK] from around here,[BREAK] are you?[BREAK][END]
-119-E: @Hé·! Je ne t'avais jamais[BREAK] vu avant, petit·![BREAK][PAUSE]@Tu es bien un élève de[BREAK] cette école·?[BREAK][END]
+119-E: @Hé·! Je ne t'avais jamais[BREAK] vu[03 62] avant, petit[03 62]·![BREAK][PAUSE]@Tu es bien un[03 62] élève de[BREAK] cette école·?[BREAK][END]
 11A: @I see. Just don't[BREAK] run in the hall.[BREAK][END]
 11A-E: @Oh, d'accord. Fais juste[BREAK] attention à ne pas courir[BREAK] dans les couloirs.[BREAK][END]
 11B: @Show me what[BREAK] you have.[BREAK][PAUSE]@You don't have[BREAK] anything dangerous,[BREAK] do you?[BREAK][END]
@@ -935,7 +935,7 @@
 1D3: @Stingy kids...[BREAK][END]
 1D3-E: @Tss, vous êtes radins les[BREAK] mômes.[BREAK][END]
 1D4: @It's a secret...[BREAK] Promise not to say[BREAK] that I told you?[BREAK][END]
-1D4-E: @J'ai des infos secrètes qui[BREAK] peuvent t'intéresser.[BREAK][PAUSE]@Tu veux les entendre ?[BREAK][END]
+1D4-E: @J'ai une info secrète qui[BREAK] peut t'intéresser.[BREAK][PAUSE]@Tu veux l'entendre ?[BREAK][END]
 1D5: @The Bla-Bla Boss,[BREAK] [21 38 75]'s real name[BREAK] is...[BREAK][PAUSE] [21 38 75] Junior, the[BREAK] 3rd.[BREAK] Ha.[BREAK][PAUSE]@But, it's only a[BREAK] rumor, though.[BREAK][END]
 1D5-E: @Le nom complet du chef du[BREAK] BB Gang est [21 38 75] Junior[BREAK] troisième du nom.[BREAK][PAUSE] @Enfin, ce n'est qu'une[BREAK] rumeur.[BREAK][END]
 1D6: @You'll be the one[BREAK] who regrets it for[BREAK] sure.[BREAK][END]
@@ -1031,13 +1031,13 @@
 203: 
 203-E: 
 204: @You ever get hurt,[BREAK] come to my place.[BREAK][PAUSE]@I have food,[BREAK] medicine, and a[BREAK] bed you can use.[BREAK][END]
-204-E: @N'hésite pas à passer si[BREAK] jamais tu es blessé[03 62].[BREAK][PAUSE]@Ce n'est pas grand-chose,[BREAK] mais j'ai de la nourriture,[BREAK] des remèdes, et des lits.[BREAK][END]
+204-E: @N'hésitez pas à passer si[BREAK] jamais vous êtes blessés.[BREAK][PAUSE]@Ce n'est pas grand-chose,[BREAK] mais j'ai de la nourriture,[BREAK] des remèdes, et des lits.[BREAK][END]
 205: 
 205-E: 
 206: @Hey! [21 F8 74]!...[BREAK][PAUSE]@Now is the time[BREAK] you must fight[BREAK] for yourself.[BREAK][END]
 206-E: @Alors, [21 F8 74].[BREAK][PAUSE]@On dirait que le moment est[BREAK] enfin venu d'utiliser le[BREAK] peu de courage que tu as.[BREAK][END]
 207: @Come on, children,[BREAK] what do you need?[BREAK][END]
-207-E: @Bonjour les enfants.[BREAK][PAUSE]@De quoi avez-vous besoin ?[BREAK][END]
+207-E: @Alors, les enfants.[BREAK][PAUSE]@De quoi avez-vous besoin ?[BREAK][END]
 208: @MY NAME IS EVE.[BREAK][PAUSE] I HAVE BEEN[BREAK][PAUSE] WAITING FOR YOU.[BREAK][PAUSE]@MY CREATOR WAS[BREAK][PAUSE] GEORGE...[BREAK][PAUSE]@HE WAS TAKEN TO[BREAK][PAUSE] THE END OF THE[BREAK][PAUSE] UNIVERSE...[BREAK][PAUSE]@THEN BROUGHT BACK[BREAK][PAUSE] LATER.[BREAK][PAUSE]@I AM HERE TO[BREAK][PAUSE] PROTECT YOU.[BREAK][PAUSE]@THAT IS MY PURPOSE.[BREAK][END]
 208-E: @MON NOM EST ÈVE.[BREAK][PAUSE] JE T'ATTENDAIS.[BREAK][PAUSE]@MON PÈRE ÉTAIT GEORGE.[BREAK][PAUSE]@IL FUT EMMENÉ AUX CONFINS[PAUSE] DE L'UNIVERS,[BREAK][PAUSE]@AVANT DE REVENIR ICI.[BREAK][PAUSE]@MON DEVOIR EST DE TE[PAUSE] PROTÉGER.[BREAK][END]
 209: 
@@ -1169,9 +1169,9 @@
 248: @Now, let's go back[BREAK] to town.[BREAK][END]
 248-E: @Allez·! Retournons en ville[BREAK] maintenant·![BREAK][END]
 249: @Sorry, but I am[BREAK] afraid you can't[BREAK] carry all of them.[BREAK][END]
-249-E: @Mince. On dirait que tu ne[BREAK] peux pas porter davantage[BREAK] d'objets.[BREAK][PAUSE]@Quel dommage.[BREAK][END]
+249-E: @Mince. On dirait[BREAK] que tu ne peux rien[BREAK] porter de plus.[BREAK][PAUSE]@Dommage.[BREAK][END]
 24A: @You can't carry it?[BREAK] What a shame![BREAK][END]
-24A-E: @Tu ne peux rien porter de[BREAK] plus·?[BREAK][PAUSE]@Quel dommage.[BREAK][END]
+24A-E: @Tu ne peux rien[BREAK] porter de plus·?[BREAK][PAUSE]@Quel dommage.[BREAK][END]
 24B: @If you can't carry[BREAK] it, come back some[BREAK] other time.[BREAK][END]
 24B-E: @On dirait que tu n'as pas[BREAK] la place pour porter ça.[BREAK][PAUSE]@Reviens quand tu pourras.[BREAK][END]
 24C: 
@@ -1219,7 +1219,7 @@
 261: @I am Able, the [BREAK] Doctor's assistant.[BREAK][PAUSE]@I too would like[BREAK] to taste[BREAK] Strawberry Tofu.[BREAK][END]
 261-E: @Je suis l'assistant A du[BREAK] professeur.[BREAK][PAUSE]@J'aimerais beaucoup goûter[BREAK] du tofu à la fraise.[BREAK][END]
 262: @Thank you, It[BREAK] looks so good![BREAK][PAUSE]@I'll share some[BREAK] important[BREAK] information.[BREAK][PAUSE]@Near the summit of[BREAK] Mount Itoi...[BREAK][PAUSE]@Deep in the lake,[BREAK] there lies a[BREAK] fantastic robot.[BREAK][PAUSE]@I think it still[BREAK] works.[BREAK][END]
-262-E: @Oh, ça a l'air délicieux ![BREAK][PAUSE]@Merci, j'apprécie.[BREAK][PAUSE]@Pour te remercier, je vais[BREAK] partager avec toi quelques[BREAK] infos que j'ai entendues.[BREAK][PAUSE]@Il y a un robot incroyable[BREAK] au fond du lac du Mont[BREAK] Itoi.[BREAK][PAUSE]@Je parie qu'il fonctionne[BREAK] encore ![BREAK][END]
+262-E: @Oh, il a l'air délicieux ![BREAK][PAUSE]@Merci, j'apprécie.[BREAK][PAUSE]@Pour te remercier, je vais[BREAK] partager avec toi quelques[BREAK] infos que j'ai entendues.[BREAK][PAUSE]@Il y a un robot incroyable[BREAK] au fond du lac du Mont[BREAK] Itoi.[BREAK][PAUSE]@Je parie qu'il fonctionne[BREAK] encore ![BREAK][END]
 263: @I look just like[BREAK] Able, but I am[BREAK] Baker.[BREAK][PAUSE]@I also want to try[BREAK] Strawberry Tofu.[BREAK][END]
 263-E: @J'ai bien conscience que je[BREAK] ressemble à l'assistant A,[BREAK] mais je suis l'assistant B.[BREAK][PAUSE]@J'ai vraiment, énormément[BREAK] envie de goûter du tofu à[BREAK] la fraise.[BREAK][END]
 264: @Oh! I'm so happy.[BREAK] Take these Swear[BREAK] Words with you.[BREAK][END]
@@ -1303,7 +1303,7 @@
 28B: @I don't trust[BREAK] these monkeys. [BREAK] They're all liars.[BREAK][PAUSE]@By the way, go[BREAK] right, left, left[BREAK] and right.[BREAK][END]
 28B-E: @Je fais pas confiance aux[BREAK] singes d'ici.[BREAK][PAUSE]@Ils passent leur temps à[BREAK] mentir.[BREAK][PAUSE]@Va à droite, à gauche, à[BREAK] gauche puis à droite.[BREAK][END]
 28C: @Retreat![BREAK] And if you don't[BREAK] want to...[BREAK][PAUSE]@Go back![BREAK][PAUSE]@Oh, never mind.[BREAK] Go forward![BREAK][END]
-28C-E: @Fais demi-tour ![BREAK][PAUSE]@Ou bien si t'as pas envie[BREAK] de faire demi-tour,[BREAK] continue tout droit ![BREAK][END]
+28C-E: @Fais demi-tour ![BREAK][PAUSE]@Ou bien si t'as pas envie[BREAK] de faire demi-tour,[BREAK] continue à avancer ![BREAK][END]
 28D: @In the town by the[BREAK] sea, you'll meet a[BREAK] new friend.[BREAK][END]
 28D-E: @Je pense que tu te feras[BREAK] un nouvel ami dans une[BREAK] ville au bord de l'océan.[BREAK][END]
 28E: @I am a quiet[BREAK] monkey.[BREAK][PAUSE]@I don't talk much.[BREAK][PAUSE]@you see...[BREAK][PAUSE]@............[BREAK][END]
@@ -1357,7 +1357,7 @@
 2A6: @I don't have a[BREAK] cold.[BREAK] Cough, cough, hack.[BREAK][PAUSE]@I'm just talking[BREAK] to myself.[BREAK] Cough, hack hack.[BREAK][END]
 2A6-E: @Je n'ai pas le rhume.[BREAK][PAUSE]@Kof, kof.[BREAK][PAUSE]@Oh, je n'ai pas toussé,[BREAK][PAUSE]@j'ai juste l'habitude de[BREAK] dire ça.[BREAK][PAUSE]@Kof, kof.[BREAK][END]
 2A7: @Whenever you get[BREAK] tired, just drop[BREAK] by our Inn.[BREAK][END]
-2A7-E: @Épuisé ? Va à l'hôtel.[BREAK][PAUSE]@Endormi ? Va à l'hôtel.[BREAK][PAUSE]@C'est tout ce que j'ai à[BREAK] dire, vraiment.[BREAK][END]
+2A7-E: @Épuisé[03 62] ? Va à l'hôtel.[BREAK][PAUSE]@Endormi[03 62] ? Va à l'hôtel.[BREAK][PAUSE]@C'est tout ce que j'ai à[BREAK] dire, vraiment.[BREAK][END]
 2A8: @Hi [21 0A 67], I'll[BREAK] catch you later,[BREAK][PAUSE]@I'm a little busy[BREAK] right now.[BREAK][END]
 2A8-E: @Oh, salut. Hé hé.[BREAK][END]
 2A9: @A restaurant, rant,[BREAK] rant, rant...[BREAK] Happy restaurant,[BREAK][PAUSE]@rant, rant, rant...[BREAK] Are you happy?[BREAK][END]
@@ -1425,7 +1425,7 @@
 2C8: @I told my kid to[BREAK] study, then play[BREAK] Nintendo games.[BREAK][PAUSE]@Those are the[BREAK] rules around my[BREAK] house![BREAK][END]
 2C8-E: @Comme je le dis à mon fils,[BREAK] "Si tu as le temps de jouer[BREAK] à des jeux Nintendo...[BREAK][PAUSE]@alors tu as du temps à[BREAK] consacrer à tes devoirs !"[BREAK][END]
 2C9: @You look so happy[BREAK] all of the time![BREAK][END]
-2C9-E: @Tu as l'air très enjoué.[BREAK] Ça se voit sur ton visage.[BREAK][END]
+2C9-E: @Tu as l'air très enjoué[03 62].[BREAK] Ça se voit sur ton visage.[BREAK][END]
 2CA: @Duncan Enterprises[BREAK] plans to build a[BREAK] strip-joint here.[BREAK][PAUSE]@No one in town[BREAK] likes the idea of[BREAK] that at all![BREAK][END]
 2CA-E: @Duncan essaie d'ouvrir un[BREAK] club de strip-tease dans[BREAK] cette ville.[BREAK][PAUSE]@Je suis contre à 100 % ![BREAK][END]
 2CB: @I'd like to be a[BREAK] doctor, and help[BREAK] sick people...[BREAK][PAUSE]@and make lots of[BREAK] money doing it.[BREAK][END]
@@ -1445,7 +1445,7 @@
 2D2: @My husband is an[BREAK] important man at[BREAK] Twinkle School.[BREAK][PAUSE]@He never eats[BREAK] lunch.[BREAK][END]
 2D2-E: @Mon mari est une personne[BREAK] importante de l'école[BREAK] primaire Léclat.[BREAK][PAUSE]@Il trop important pour[BREAK] manger des paniers-repas[BREAK] préparés à la maison.[BREAK][END]
 2D3: @Have you been to[BREAK] Sweet's Little[BREAK] Factory?[BREAK][END]
-2D3-E: @Tu es déjà allé à l'usine[BREAK] Minimimi ?[BREAK][END]
+2D3-E: @Tu es déjà allé[03 62] à l'usine[BREAK] Minimimi ?[BREAK][END]
 2D4: @I've heard many[BREAK] scary monsters[BREAK] lurk outside town.[BREAK][PAUSE]@I'm so afraid that[BREAK] they'll take my[BREAK] money away.[BREAK][END]
 2D4-E: @Tu vois tous ces monstres[BREAK] effrayants qui rôdent en[BREAK] dehors de la ville ?[BREAK][PAUSE]@J'ai vraiment peur qu'ils[BREAK] me volent mon portefeuille.[BREAK][END]
 2D5: @Laa, la laaa....[BREAK] Dandelion seeds fly[BREAK] up to the sky,[BREAK] laa, la laaa...[BREAK][PAUSE]@I love music[BREAK] most of all.[BREAK][END]
@@ -1517,7 +1517,7 @@
 2F6: @I am a strong man.[BREAK] That's what I say.[BREAK] I insist this.[BREAK][END]
 2F6-E: @Je suis un dur à cuire.[BREAK][PAUSE]@Enfin, je suis surtout un[BREAK] beau parleur.[BREAK][END]
 2F7: @You are no match[BREAK] for [21 38 75].[BREAK][PAUSE]@He could beat you up[BREAK] with his pinkie.[BREAK][END]
-2F7-E: @[21 38 75], notre chef, peux[BREAK] carrément te dézinguer rien[BREAK] qu'avec son petit doigt ![BREAK][END]
+2F7-E: @[21 38 75], notre chef, peut[BREAK] carrément te dézinguer rien[BREAK] qu'avec son petit doigt ![BREAK][END]
 2F8: @Did you read[BREAK] the sign?[BREAK][END]
 2F8-E: @As-tu bien lu la pancarte ?[BREAK][END]
 2F9: @While walking in[BREAK] the desert, I saw a[BREAK] cactus with a face,[BREAK][PAUSE]@then I ran for the[BREAK] hills screaming as[BREAK] loud as I could.[BREAK][END]
@@ -2391,9 +2391,9 @@
 4AB: 
 4AB-E:  Endormi
 4AC: 
-4AC-E:  Troublé
+4AC-E:   Confus
 4AD: 
-4AD-E:   Confus
+4AD-E:  Troublé
 4AE: 
 4AE-E:   Poison
 4AF: 
@@ -2503,9 +2503,9 @@
 4E3: 
 4E3-E:      Endormi
 4E4: 
-4E4-E:      Troublé
+4E4-E:       Confus
 4E5: 
-4E5-E:       Confus
+4E5-E:      Troublé
 4E6: 
 4E6-E:   Empoisonné
 4E7: 
@@ -2519,9 +2519,9 @@
 4EB: 
 4EB-E:     Endormie
 4EC: 
-4EC-E:     Troublée
+4EC-E:      Confuse
 4ED: 
-4ED-E:      Confuse
+4ED-E:     Troublée
 4EE: 
 4EE-E:  Empoisonnée
 4EF: 
@@ -3125,7 +3125,7 @@
 61A:  [21 88 05][BREAK] recovered [23 90 05 02 00] HP![END]
 61A-E: [03 EA][21 88 05][BREAK]récupère [23 90 05 02 00]·PV·![END]
 61B: [21 80 05]'s energy[BREAK]has flowed into[BREAK][21 88 05]![END]
-61B-E: [03 E2][21 80 05][BREAK]est réalimenté[03 E4] en[BREAK]énergie·![END]
+61B-E: [03 E2][21 80 05][BREAK]fait le plein d'énergie·![END]
 61C:  However, no one came[BREAK] to assist.[END]
 61C-E: Mais personne ne vient.[END]
 61D:  Silence...[END]
@@ -3207,7 +3207,7 @@
 643: [21 80 05] did[BREAK]something strange.[END]
 643-E: [03 E2][21 80 05][BREAK]fait quelque chose[BREAK]d'étrange·![END]
 644: [21 80 05] is[BREAK]day-dreaming.[END]
-644-E: [03 E2][21 80 05][BREAK]est en train de rêvasser.[END]
+644-E: [03 E2][21 80 05][BREAK]a la tête ailleurs.[END]
 645:  Destroyed[BREAK] [21 88 05]'s[BREAK] shield.[END]
 645-E: Le bouclier [03 EE][21 88 05][BREAK]a été détruit·![END]
 646: [21 80 05] CHECKed[BREAK][21 88 05].[END]
@@ -3281,7 +3281,7 @@
 668: Picked up [21 04 6D]![BREAK][PAUSE][STOP]
 668-E: Vous ramassez[BREAK][03 D0][21 04 6D]·![BREAK][PAUSE][STOP]
 669:  [21 88 05] wasn't[BREAK] confused anymore![END]
-669-E: La confusion [03 ED][21 88 05][BREAK]s'est dissipée·![END]
+669-E: [03 EA][21 88 05][BREAK]s'est dissipée·![END]
 66A: [21 80 05] woke up.[END]
 66A-E: [03 E2][21 80 05][BREAK]se réveille·![END]
 66B: ZAP!!![END]
