@@ -225,7 +225,7 @@
 070: 
 070-E: 
 071: @Are you bothered that[BREAK] unhappiness and[BREAK][PAUSE]@misfortune search[BREAK] you out?[BREAK][END]
-071-E: @Le bonheur ne mettra jamais[BREAK] les pieds dans notre vie[BREAK] par lui-même.[BREAK][PAUSE]@Mais c'est pareil pour le[BREAK] malheur.[BREAK][PAUSE]@Tu es d'accord·?[BREAK][END]
+071-E: @Le bonheur ne mettra jamais[BREAK] les pieds dans notre vie[BREAK] par lui-même.[BREAK][PAUSE]@Mais c'est pareil pour le[BREAK] malheur.[BREAK][PAUSE]@Tu n'es pas d'accord·?[BREAK][END]
 072: @If you desire to[BREAK] never find[BREAK] trouble...[BREAK][PAUSE]@STAY HOME!![BREAK][END]
 072-E: @Alors si on ne veut pas de[BREAK] problèmes dans la vie...[BREAK][PAUSE]@il vaut mieux rester sur[BREAK] place et ne pas bouger d'un[BREAK] poil.[BREAK][END]
 073: @Is that right?[BREAK] Trouble searches[BREAK] after you?[BREAK][PAUSE]@Hmm, that's too[BREAK] bad.[BREAK][END]
@@ -259,7 +259,7 @@
 081: @The mysterious[BREAK] sound of the[BREAK] fountain soothes.[BREAK][END]
 081-E: @Le mystérieux son que[BREAK] produit la fontaine est[BREAK] tellement relaxant.[BREAK][END]
 082: @More to the south.[BREAK] Are you lost?[BREAK][PAUSE]@Sorry...I was[BREAK] directing you to[BREAK] the rest room.[BREAK][PAUSE]@Queen Mary's[BREAK] Fountain is west[BREAK] of the castle.[BREAK][END]
-082-E: @Oh, tu es perdu·?[BREAK] Continue vers le sud.[BREAK][PAUSE]@Oups, pardon. Je croyais[BREAK] que tu cherchais des[BREAK] toilettes.[BREAK][PAUSE]@Si tu cherches la fontaine[BREAK] de la reine Mary, va à[BREAK] l'ouest depuis le château.[BREAK][END]
+082-E: @Oh, tu es perdu[03 62]·?[BREAK] Continue vers le sud.[BREAK][PAUSE]@Oups, pardon. Je croyais[BREAK] que tu cherchais des[BREAK] toilettes.[BREAK][PAUSE]@Si tu cherches la fontaine[BREAK] de la reine Mary, va à[BREAK] l'ouest depuis le château.[BREAK][END]
 083: 
 083-E: 
 084: @I bent my spoon[BREAK] and it's hard to[BREAK] use like this.[BREAK][PAUSE]@Do you think[BREAK] somehow you could[BREAK] fix it for me?[BREAK][END]
@@ -337,7 +337,7 @@
 0A8: @The Queen isn't[BREAK] feeling very well.[BREAK][END]
 0A8-E: @La reine ne se sent pas[BREAK] très bien en ce moment...[BREAK][END]
 0A9: @Suspicious man....[BREAK] I'll let you pass,[BREAK][PAUSE]@if you solve this[BREAK] riddle...[BREAK][END]
-0A9-E: @Tu as l'air suspect.[BREAK][PAUSE]@Mais je te laisserai passer[BREAK] si tu peux résoudre ma[BREAK] petite énigme...[BREAK][END]
+0A9-E: @Tu as l'air suspect[03 62].[BREAK][PAUSE]@Mais je te laisserai passer[BREAK] si tu peux résoudre ma[BREAK] petite énigme...[BREAK][END]
 0AA: @That's right.[BREAK] The answer is[BREAK] "two alligators".[BREAK][PAUSE]@Although I haven't[BREAK] come up with the[BREAK] riddle yet.[BREAK][END]
 0AA-E: @C'est exact. La réponse est[BREAK] "deux alligators".[BREAK][PAUSE]@Je n'avais pas encore[BREAK] inventé la question, par[BREAK] contre.[BREAK][PAUSE]@Hé hé.[BREAK][END]
 0AB: @See you later![BREAK][END]
@@ -501,7 +501,7 @@
 0FA: 
 0FA-E: 
 0FB: @An awful creature[BREAK] beat me up.[BREAK][PAUSE]@If you're going to[BREAK] the station, watch[BREAK] out![BREAK][END]
-0FB-E: @Il y a des monstres très[BREAK] puissants qui m'ont fichu[BREAK] une raclée.[BREAK][PAUSE]@Si tu comptes te rendre à[BREAK] la gare, je te conseille[BREAK] d'être vigilant...[BREAK][END]
+0FB-E: @Il y a des monstres très[BREAK] puissants qui m'ont fichu[BREAK] une raclée.[BREAK][PAUSE]@Si tu comptes te rendre à[BREAK] la gare, je te conseille[BREAK] d'être vigilant[03 62]...[BREAK][END]
 0FC: 
 0FC-E: 
 0FD: @I heard the curfew[BREAK] in Podunk has been[BREAK] lifted.[BREAK][PAUSE]@You know what that[BREAK] means, don't you?[BREAK][PAUSE]@We can cross the[BREAK] bridge once more![BREAK][END]
@@ -541,7 +541,7 @@
 10E: 
 10E-E: 
 10F: @Then, when she[BREAK] does get up,[BREAK] she goes shopping.[BREAK][PAUSE]@Luckily, I hid the[BREAK] credit cards from[BREAK] that woman![BREAK][PAUSE]@Don't you think[BREAK] she's a terrible[BREAK] wife.[BREAK][END]
-10F-E: @Elle ne fait que grossir de[BREAK] plus en plus.[BREAK][PAUSE]@N'est-elle pas une femme[BREAK] horrible·?[BREAK][END]
+10F-E: @Elle ne fait que grossir de[BREAK] plus en plus.[BREAK][PAUSE]@N'est-elle pas une horrible[BREAK] femme·?[BREAK][END]
 110: @Kids don't know[BREAK] the sorrows of[BREAK] real life...[BREAK][END]
 110-E: @Un gamin comme toi ne peut[BREAK] pas comprendre les chagrins[BREAK] de la vie...[BREAK][END]
 111: @How dare you talk[BREAK] about my wife[BREAK] like that, scram![BREAK][END]
@@ -779,7 +779,7 @@
 185: 
 185-E: 
 186: @You don't have[BREAK] enough money.[BREAK][END]
-186-E: @Tu n'as pas assez d'argent.[BREAK][END]
+186-E: @Vous n'avez pas assez[BREAK] d'argent.[BREAK][END]
 187: @Oh my, your nose[BREAK] is running.[BREAK][END]
 187-E: @Ouh là là ! Tu as le nez[BREAK] qui coule ![BREAK][END]
 188: @Excuse me, I need[BREAK] to see the person[BREAK] playing this game.[BREAK][END]
@@ -1185,7 +1185,7 @@
 250: @I can't talk very[BREAK] well without my[BREAK] Dentures.[BREAK][END]
 250-E: @Je ne peux pas parler[BREAK] correctement sans mon[BREAK] dentier.[BREAK][END]
 251: @No, that's not[BREAK] quite enough.[BREAK][END]
-251-E: @On dirait que tu n'en as[BREAK] toujours pas assez.[BREAK][END]
+251-E: @On dirait que t'en as[BREAK] toujours pas assez.[BREAK][END]
 252: 
 252-E: 
 253: 
@@ -1275,15 +1275,15 @@
 27D: @Good to hear it.[BREAK] It's just a game![BREAK][END]
 27D-E: @Oh. Hmm, bon, d'accord.[BREAK][END]
 27E: @You caught up with[BREAK] me. I'll admit[BREAK] that's something.[BREAK][PAUSE]@Here I'll give you[BREAK] something nice.[BREAK][END]
-27E-E: @Tu as réussi à m'attraper.[BREAK][PAUSE]@Tu es vraiment doué[03 62].[BREAK][PAUSE]@Voici quelque chose de[BREAK] sympa pour toi.[BREAK][END]
+27E-E: @Tu as réussi à me[BREAK] rattraper.[BREAK][PAUSE]@Tu es vraiment doué[03 62].[BREAK][PAUSE]@Voici quelque chose de[BREAK] sympa pour toi.[BREAK][END]
 27F: @Turn right, then[BREAK] left, to find[BREAK] something nice.[BREAK][END]
 27F-E: @Tourne à droite puis à[BREAK] gauche et tu trouveras un[BREAK] truc sympa.[BREAK][END]
 280: @It's so quiet here,[BREAK] but too quiet for[BREAK] me, I think.[BREAK][END]
-280-E: @Ça a l'air paisible par[BREAK] ici, mais c'est aussi[BREAK] beaucoup trop sombre.[BREAK][END]
+280-E: @Ça a l'air tranquille par[BREAK] ici, mais c'est aussi[BREAK] beaucoup trop sombre.[BREAK][END]
 281: @Just walk straight![BREAK] Find truth at the[BREAK] end of the path.[BREAK][END]
 281-E: @Tout droit ![BREAK] Continue tout droit ![BREAK][PAUSE]@La vérité se trouve quelque[BREAK] part droit devant.[BREAK][END]
 282: @I am a lady...[BREAK] Don't talk to me[BREAK] so casually.[BREAK][END]
-282-E: @Je suis une dame, pour ta[BREAK] gouverne.[BREAK][PAUSE]@Ça ne se fait pas de parler[BREAK] à une dame de cette façon.[BREAK][PAUSE]@Tu n'es pas d'accord ?[BREAK][END]
+282-E: @Je suis une dame, pour ta[BREAK] gouverne.[BREAK][PAUSE]@Ça ne se fait pas[BREAK] d'adresser la parole à une[BREAK] dame de cette façon.[BREAK][PAUSE]@Tu n'es pas d'accord ?[BREAK][END]
 283: @The truth is...[BREAK] I am a man.[BREAK][END]
 283-E: @En fait je suis un mec.[BREAK][END]
 284: 
@@ -1293,9 +1293,9 @@
 286: @How long did it[BREAK] take you to get[BREAK] here?[BREAK][END]
 286-E: @Combien de temps ça t'a[BREAK] pris pour arriver aussi[BREAK] loin ?[BREAK][PAUSE]@Oh, simple curiosité.[BREAK][END]
 287: @I've got a good[BREAK] story to tell you.[BREAK] Want to hear it?[BREAK][END]
-287-E: @J'ai des infos qui peuvent[BREAK] t'intéresser. Tu veux les[BREAK] entendre ?[BREAK][END]
+287-E: @J'ai une info qui peut[BREAK] t'intéresser. Tu veux[BREAK] l'entendre ?[BREAK][END]
 288: @Well...[BREAK] You should be nice[BREAK] to friends.[BREAK][PAUSE]@That's all I've got[BREAK] to say.[BREAK][END]
-288-E: @Alors, pour faire simple...[BREAK] Prends soin de tes amis.[BREAK][PAUSE]@C'est tout ce que j'ai à[BREAK] dire.[BREAK][END]
+288-E: @Alors, pour faire simple...[BREAK] Prends soin de tes amis.[BREAK][PAUSE]@Voilà, c'est tout ce que[BREAK] j'ai à dire.[BREAK][END]
 289: @Have you no[BREAK] intellectual[BREAK] ambitions?[BREAK][END]
 289-E: @Bien, je vois ![BREAK][PAUSE]@Tu n'as aucune curiosité[BREAK] intellectuelle ![BREAK][END]
 28A: @Don't go any[BREAK] farther inside![BREAK][END]
@@ -1307,7 +1307,7 @@
 28D: @In the town by the[BREAK] sea, you'll meet a[BREAK] new friend.[BREAK][END]
 28D-E: @Je pense que tu te feras[BREAK] un nouvel ami dans une[BREAK] ville au bord de l'océan.[BREAK][END]
 28E: @I am a quiet[BREAK] monkey.[BREAK][PAUSE]@I don't talk much.[BREAK][PAUSE]@you see...[BREAK][PAUSE]@............[BREAK][END]
-28E-E: @Je suis un singe timide.[BREAK][PAUSE]@Parler, c'est pas vraiment[BREAK] mon truc.[BREAK][PAUSE]@...... Pigé ?[BREAK][PAUSE]@......[BREAK][END]
+28E-E: @Je suis un singe timide.[BREAK][PAUSE]@Parler, c'est pas vraiment[BREAK] mon truc.[BREAK][PAUSE]@...... Compris ?[BREAK][PAUSE]@......[BREAK][END]
 28F: @Oh [21 B8 74] baby,[BREAK] Hubba hubba,[BREAK] what a dish.[BREAK][END]
 28F-E: @Houba houba. On dirait[BREAK] qu'un ange est tombé du[BREAK] paradis.[BREAK][END]
 290: @Don't believe that[BREAK] all monkeys are[BREAK] liars.[BREAK][PAUSE]@That's nothing but[BREAK] a lie.[BREAK][END]
@@ -1361,7 +1361,7 @@
 2A8: @Hi [21 0A 67], I'll[BREAK] catch you later,[BREAK][PAUSE]@I'm a little busy[BREAK] right now.[BREAK][END]
 2A8-E: @Oh, salut. Hé hé.[BREAK][END]
 2A9: @A restaurant, rant,[BREAK] rant, rant...[BREAK] Happy restaurant,[BREAK][PAUSE]@rant, rant, rant...[BREAK] Are you happy?[BREAK][END]
-2A9-E: @C'est un restaurant,[BREAK] tra-la-la ![BREAK][PAUSE]@Un joyeux restaurant,[BREAK] ha-ha-ha ![BREAK][PAUSE]@Et toi, tu es joyeux ?[BREAK][END]
+2A9-E: @C'est un restaurant,[BREAK] tra-la-la ![BREAK][PAUSE]@Un joyeux restaurant,[BREAK] ha-ha-ha ![BREAK][PAUSE]@Et toi, tu es joyeu[03 6A][03 62] ?[BREAK][END]
 2AA: @All restaurant[BREAK] owners love[BREAK] musicals![BREAK][END]
 2AA-E: @Est-ce que tous les[BREAK] restaurateurs chantent[BREAK] comme ça ?[BREAK][END]
 2AB: @I think [21 89 76][BREAK] is delicious, too.[BREAK][END]
@@ -3425,13 +3425,13 @@
 6B0: @[21 20 6D] drank[BREAK] [21 24 6D].[BREAK][END]
 6B0-E: @[21 20 6D] boit[BREAK]l[03 41][21 24 6D].[BREAK][END]
 6B1: @recovered by[BREAK] [23 2A 00 02 00].[BREAK][END]
-6B1-E: remontent de [23 2A 00 02 00].[BREAK][END]
+6B1-E: [END]
 6B2: @increased by[BREAK] [23 2A 00 02 00].[BREAK][END]
 6B2-E: augmente de [23 2A 00 02 00].[BREAK][END]
 6B3: @[21 20 6D]'s HP is[BREAK][END]
-6B3-E: @Les PV d[03 5A][21 20 6D][BREAK][END]
+6B3-E: @[21 20 6D] récupère [23 2A 00 02 00] PV.[BREAK][END]
 6B4: @[21 20 6D]'s PP is[BREAK][END]
-6B4-E: @Les PP d[03 5A][21 20 6D][BREAK][END]
+6B4-E: @[21 20 6D] récupère [23 2A 00 02 00] PP.[BREAK][END]
 6B5: @[21 20 6D]'s ENERGY is[BREAK][END]
 6B5-E: @La fougue d[03 5A][21 20 6D][BREAK][END]
 6B6: @[21 20 6D]'s SPEED is[BREAK][END]
