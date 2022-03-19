@@ -385,13 +385,13 @@
 0C0: 
 0C0-E: 
 0C1: @You liar![BREAK][END]
-0C1-E: @Espèce de sale menteur·![BREAK][END]
+0C1-E: @Espèce de sale menteu[03 6E][03 62]·![BREAK][END]
 0C2: @All of us know you[BREAK] don't belong here,[BREAK][PAUSE]@but we consider[BREAK] you one of us.[BREAK][PAUSE]@With the Onyx[BREAK] Hook, you can warp[BREAK] back here anytime.[BREAK][END]
 0C2-E: @Nous savons que tu n'es pas[BREAK] d'ici mais nous te considé-[BREAK] rons comme l'un des nôtres.[BREAK][PAUSE]@Avec le Crochet d'onyx, tu[BREAK] pourras revenir ici quand[BREAK] tu le voudras.[BREAK][END]
 0C3: @Promise me, that[BREAK] if you need help,[BREAK] you will return.[BREAK][PAUSE]@Everyone loves[BREAK] you, [21 0A 67].[BREAK][END]
 0C3-E: @N'hésite pas à venir nous[BREAK] rendre visite dès que tu[BREAK] ne te sens pas bien.[BREAK][PAUSE]@Ici, tout le monde t'aime.[BREAK][END]
 0C4: @Welcome, [21 0A 67].[BREAK][PAUSE]@Here in Magicant,[BREAK] everyone is your[BREAK] friend.[BREAK][PAUSE]@You can have as[BREAK] much as you like,[BREAK][PAUSE]@of whatever you[BREAK] want.[BREAK][PAUSE]@What? You want to[BREAK] listen to my song?[BREAK][PAUSE]@Sorry, I don't[BREAK] know why, but I[BREAK] just can't sing.[BREAK][PAUSE]@I beg you to learn[BREAK] the melody. It is[BREAK] only 8 notes long.[BREAK][PAUSE]@When you learn[BREAK] them all, return[BREAK] and sing for me.[BREAK][PAUSE]@If I only could[BREAK] hear that song...[BREAK][END]
-0C4-E: @Bienvenue, [21 0A 67].[BREAK][PAUSE]@Ici, au pays de Magicant,[BREAK] tout le monde est ton ami[BREAK][PAUSE]@et tu peux obtenir ce que[BREAK] tu veux, autant que tu le[BREAK] veux.[BREAK][PAUSE]@Oh·? Tu souhaites écouter[BREAK] ma chanson·?[BREAK][PAUSE]@Je suis navrée, j'ignore[BREAK] pourquoi, mais je n'arrive[BREAK] pas à m'en souvenir.[BREAK][PAUSE]@Je suis certaine qu'un[BREAK] jour, je serai capable de[BREAK] me la remémorer...[BREAK][PAUSE]@Si je parviens à la chanter[BREAK] à nouveau, quelque chose se[BREAK] produira...[BREAK][PAUSE]@J'en suis sûre.[BREAK][END]
+0C4-E: @Bienvenue, [21 78 74].[BREAK][PAUSE]@Ici, au pays de Magicant,[BREAK] tout le monde est ton ami[BREAK][PAUSE]@et tu peux obtenir ce que[BREAK] tu veux, autant que tu le[BREAK] veux.[BREAK][PAUSE]@Oh·? Tu souhaites écouter[BREAK] ma chanson·?[BREAK][PAUSE]@Je suis navrée, j'ignore[BREAK] pourquoi, mais je n'arrive[BREAK] pas à m'en souvenir.[BREAK][PAUSE]@Je suis certaine qu'un[BREAK] jour, je serai capable de[BREAK] me la remémorer...[BREAK][PAUSE]@Si je parviens à la chanter[BREAK] à nouveau, quelque chose se[BREAK] produira...[BREAK][PAUSE]@J'en suis sûre.[BREAK][END]
 0C5: 
 0C5-E: 
 0C6: 
@@ -425,7 +425,7 @@
 0D4: @I am a Swimming[BREAK] cat.[BREAK][PAUSE]@Have you heard of[BREAK] a Magic Candy that[BREAK] gives strength[BREAK][PAUSE]@and power to a[BREAK] helpless child?[BREAK][END]
 0D4-E: @Je suis un chat nageur.[BREAK][PAUSE]@As-tu entendu parler de ce[BREAK] bonbon qui donne force et[BREAK] courage aux mauviettes ?[BREAK][END]
 0D5: @I see, but you are[BREAK] not helpless, so[BREAK] you don't need it.[BREAK][END]
-0D5-E: @Je vois. Mais tu es un[BREAK] garçon courageux, je doute[BREAK] que tu en aies besoin.[BREAK][END]
+0D5-E: @Je vois. Mais tu es un[03 62][BREAK] enfant courageu[03 6A][03 62], je doute[BREAK] que tu en aies besoin.[BREAK][END]
 0D6: @The boy with[BREAK] glasses can surely[BREAK] use the Candy.[BREAK][END]
 0D6-E: @Ce garçon avec les lunettes[BREAK] semble plutôt faiblard.[BREAK][PAUSE]@C'est à lui que je vais[BREAK] donner le bonbon.[BREAK][END]
 0D7: 
@@ -615,7 +615,7 @@
 133: 
 133-E: 
 134: @Then, it's[BREAK] [23 2A 00 02 00][BREAK] dollars.[BREAK][END]
-134-E: @Alors ça te fera [23 2A 00 02 00]$.[BREAK][END]
+134-E: @Alors ça fera [23 2A 00 02 00]$.[BREAK][END]
 135: 
 135-E: 
 136: 
@@ -695,7 +695,7 @@
 15B: 
 15B-E: 
 15C: @Mouthwash again?[BREAK] Here it is.[BREAK] Go ahead, take it.[BREAK][PAUSE]@But, I have to[BREAK] charge you[BREAK] $[23 2A 00 02 00] this time.[BREAK][PAUSE]@Gargle gargle[BREAK] gargle... Splash![BREAK][END]
-15C-E: @Oh, tu veux encore du bain[BREAK] de bouche ?[BREAK][PAUSE]@Très bien, voilà.[BREAK][PAUSE]@En revanche, à partir de[BREAK] maintenant, ça te coutera[BREAK][23 2A 00 02 00]$.[BREAK][PAUSE]@(gargarise crache)[BREAK][END]
+15C-E: @Oh, tu veux encore du bain[BREAK] de bouche ?[BREAK][PAUSE]@Très bien, voilà.[BREAK][PAUSE]@En revanche, à partir de[BREAK] maintenant, ça te coûtera[BREAK][23 2A 00 02 00]$.[BREAK][PAUSE]@(gargarise crache)[BREAK][END]
 15D: @I heard someone[BREAK] died from a cold.[BREAK] Just a cold![BREAK][END]
 15D-E: @À ce qu'il parait, il y a[BREAK] des gens qui sont morts à[BREAK] cause d'un rhume.[BREAK][PAUSE]@Un simple rhume ![BREAK][END]
 15E: @Have you heard[BREAK] that their is[BREAK] a ghost house[BREAK] in Spookane?[BREAK][END]
@@ -761,7 +761,7 @@
 17C: @Mom left for[BREAK] Youngtown.[BREAK][PAUSE]@We haven't heard[BREAK] from her for days[BREAK] now.[BREAK][PAUSE]@Dad and I are[BREAK] going there to[BREAK] look for her.[BREAK][END]
 17C-E: @Ma maman est dans la ville[BREAK] de Youngtown.[BREAK][PAUSE]@On a pas eu de nouvelles[BREAK] d'elle depuis un moment,[BREAK][PAUSE]@alors Papa et moi on va[BREAK] partir là-bas à sa[BREAK] recherche.[BREAK][END]
 17D: @Have you been to[BREAK] the ghost house[BREAK] in Spookane?[BREAK][END]
-17D-E: @Tu es déjà allé au manoir[BREAK] hanté d'Atrocity ?[BREAK][END]
+17D-E: @Tu es déjà allé[03 62] au manoir[BREAK] hanté d'Atrocity ?[BREAK][END]
 17E: @Later you can tell[BREAK] me the whole[BREAK] story...[BREAK][PAUSE]@I love to listen[BREAK] to horror stories.[BREAK][END]
 17E-E: @Il faudra que tu me[BREAK] racontes tout, un jour.[BREAK][PAUSE]@J'adore les histoires qui[BREAK] font peur ![BREAK][END]
 17F: @I don't want you to[BREAK] go, but do so if you[BREAK] must.[BREAK][END]
@@ -811,9 +811,9 @@
 195: @What's the matter,[BREAK] [21 F8 74]?[BREAK][END]
 195-E: @Qu'est-ce qui ne va pas,[BREAK][21 F8 74]·?[BREAK][END]
 196: @The Dragon sleeps.[BREAK][PAUSE]@[21 0A 67]'s Psychic[BREAK] Power is short of[BREAK] waking the Dragon.[BREAK][END]
-196-E: @Le dragon est endormi.[BREAK][PAUSE]@[21 0A 67] ne peut pas le[BREAK] réveiller pour le moment.[BREAK][END]
+196-E: @Le dragon est endormi.[BREAK][PAUSE]@[21 78 74] ne peut pas le[BREAK] réveiller pour le moment.[BREAK][END]
 197: @Feeling [21 0A 67]'s[BREAK] presence, the[BREAK] Dragon awoke.[BREAK][PAUSE]@You must defeat[BREAK] me to earn my[BREAK] musical note.[BREAK][END]
-197-E: @Le dragon sent la présence[BREAK] d[03 5E][21 0A 67] et se réveille.[BREAK][PAUSE]@"LES ÊTRES PLUS FAIBLES QUE[BREAK] MOI NE SONT PAS DIGNES[BREAK] D'ENTENDRE MA BERCEUSE."[BREAK][END]
+197-E: @Le dragon sent la présence[BREAK] d[03 50][21 78 74] et se réveille.[BREAK][PAUSE]@"LES ÊTRES PLUS FAIBLES QUE[BREAK] MOI NE SONT PAS DIGNES[BREAK] D'ENTENDRE MA BERCEUSE."[BREAK][END]
 198: 
 198-E: 
 199: @My daughter,[BREAK] [21 B8 74] has never[BREAK] been a brave girl,[BREAK][PAUSE]@but, she is kind[BREAK] of heart, and has[BREAK] a secret strength.[BREAK][END]
@@ -831,7 +831,7 @@
 19F: @I could make a[BREAK] good signpost,[BREAK] don't you think?[BREAK][END]
 19F-E: @Je fais un panneau plutôt[BREAK] utile, hein ?[BREAK][END]
 1A0: @Conversing with a[BREAK] corpse? What a[BREAK] brave kid![BREAK][END]
-1A0-E: @T'en as dans le ventre,[BREAK] petit, à parler à des[BREAK] cadavres...[BREAK][END]
+1A0-E: @T'en as dans le ventre,[BREAK] petit[03 62], à parler à des[BREAK] cadavres...[BREAK][END]
 1A1: @I'm the bones of a[BREAK] camel.[BREAK][PAUSE]@Want to know how to[BREAK] walk when in the[BREAK] desert?[BREAK][END]
 1A1-E: @Je suis un tas d'os de[BREAK] chameau.[BREAK][PAUSE]@Veux-tu quelques conseils[BREAK] pour traverser le désert ?[BREAK][END]
 1A2: @Move your left[BREAK] foot before your[BREAK] right foot sinks.[BREAK][PAUSE]@Move your right[BREAK] foot before your[BREAK] left foot sinks.[BREAK][PAUSE]@It took me 100[BREAK] years to figure[BREAK] that out.[BREAK][END]
@@ -1253,7 +1253,7 @@
 272: 
 272-E: 
 273: @Hello, [21 0A 67]![BREAK] How are you doing?[BREAK][END]
-273-E: @Oh, [21 0A 67] ![BREAK] Comment vas-tu ?[BREAK][END]
+273-E: @Oh, [21 78 74] ![BREAK] Comment vas-tu ?[BREAK][END]
 274: @Good morning![BREAK] Did you have a[BREAK] good night's rest?[BREAK][END]
 274-E: @Bonjour. On dirait que tu[BREAK] as bien dormi.[BREAK][END]
 275: @Please come again.[BREAK] Promise me you'll[BREAK] come again![BREAK][END]
@@ -1271,11 +1271,11 @@
 27B: @Cool down dude...[BREAK] Are you so serious[BREAK] all the time?[BREAK][END]
 27B-E: @Tu devrais arrêter de[BREAK] jouer.[BREAK][END]
 27C: @Well man...[BREAK] It's like you don't[BREAK] know when to quit.[BREAK][PAUSE]@Take a rest bud...[BREAK][END]
-27C-E: @En es-tu vraiment sûr ?[BREAK][END]
+27C-E: @En es-tu vraiment sûr[03 62] ?[BREAK][END]
 27D: @Good to hear it.[BREAK] It's just a game![BREAK][END]
 27D-E: @Oh. Hmm, bon, d'accord.[BREAK][END]
 27E: @You caught up with[BREAK] me. I'll admit[BREAK] that's something.[BREAK][PAUSE]@Here I'll give you[BREAK] something nice.[BREAK][END]
-27E-E: @Tu as réussi à m'attraper.[BREAK][PAUSE]@Tu es vraiment doué.[BREAK][PAUSE]@Voici quelque chose de[BREAK] sympa pour toi.[BREAK][END]
+27E-E: @Tu as réussi à m'attraper.[BREAK][PAUSE]@Tu es vraiment doué[03 62].[BREAK][PAUSE]@Voici quelque chose de[BREAK] sympa pour toi.[BREAK][END]
 27F: @Turn right, then[BREAK] left, to find[BREAK] something nice.[BREAK][END]
 27F-E: @Tourne à droite puis à[BREAK] gauche et tu trouveras un[BREAK] truc sympa.[BREAK][END]
 280: @It's so quiet here,[BREAK] but too quiet for[BREAK] me, I think.[BREAK][END]
@@ -1559,7 +1559,7 @@
 30B: @[21 00 6D], glad to[BREAK] see you are fine[BREAK] now. See us again![BREAK][END]
 30B-E: @Je suis contente[BREAK] que tu ailles[BREAK] mieux, [21 00 6D].[BREAK][PAUSE]@Reviens dès que tu[BREAK] en auras besoin.[BREAK][END]
 30C: @You would leave[BREAK] your best friend[BREAK] on their deathbed?[BREAK][END]
-30C-E: @Oh, mais cette[BREAK] personne n'est[BREAK] pas ton amie ?[BREAK][PAUSE]@Elle pourrait y[BREAK] passer, tu sais...[BREAK][END]
+30C-E: @Oh, mais vous[BREAK] n'êtes pas amis ?[BREAK][PAUSE]@Cette personne[BREAK] pourrait y passer,[BREAK] tu sais...[BREAK][END]
 30D: @Well well, I'll[BREAK] treat each of you[BREAK] for [23 2A 00 02 00] each.[BREAK][END]
 30D-E: @Oui, oui.[BREAK][PAUSE]@La consultation[BREAK] coûte [23 2A 00 02 00]$ par[BREAK] personne.[BREAK][PAUSE]@Est-ce que cela te[BREAK] convient ?[BREAK][END]
 30E: @You really don't[BREAK] need treatment?[BREAK] Oh, well...[BREAK][END]
@@ -3775,7 +3775,7 @@
 75F: 
 75F-E: "Clé du manoir hanté"[BREAK]@La clé du manoir des[BREAK]Rosemary.
 760: 
-760-E: "Journal arrière-grd-père"[BREAK]@Le journal de l'arrière-[BREAK]grand-père d[03 50][21 78 74].[BREAK][PAUSE]@Il est rempli d'écritures,[BREAK]mais il est en si mauvais[BREAK]état que c'est quasiment[BREAK]illisible.
+760-E: "Journal de l'arrière-[BREAK]grand-père d[03 50][21 78 74]"[BREAK][PAUSE]@Il est rempli d'écritures,[BREAK]mais il est en si mauvais[BREAK]état que c'est quasiment[BREAK]illisible.
 761: 
 761-E: "Passe"[BREAK]@Il comporte l'inscription :[BREAK]"Employé usine de Duncan".
 762: 
