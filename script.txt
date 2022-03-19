@@ -1417,7 +1417,7 @@
 2C4: @I've heard about[BREAK] your wonderful[BREAK] adventures.[BREAK][PAUSE]@You are so brave,[BREAK] aren't you?[BREAK][END]
 2C4-E: @J'ai entendu parler de[BREAK] toutes les belles choses[BREAK] que tu as vécues.[BREAK][PAUSE]@Tu dois être sacrément[BREAK] courageux, hein ?[BREAK][END]
 2C5: @The Canary Village[BREAK] is northwest from[BREAK] here.[BREAK][PAUSE]@It's a nice place[BREAK] to visit and[BREAK] admission is free![BREAK][END]
-2C5-E: @Le village Canari est au[BREAK] nord-ouest d'ici.[BREAK][PAUSE]@Tu devrais vraiment aller[BREAK] le visiter ; l'entrée est[BREAK] gratuite ![BREAK][END]
+2C5-E: @Le village Canari est au[BREAK] nord-ouest d'ici.[BREAK][PAUSE]@Tu devrais vraiment aller[BREAK] le visiter, l'entrée est[BREAK] gratuite ![BREAK][END]
 2C6: @The receptionist at[BREAK] City Hall is so[BREAK] gorgeous.[BREAK][END]
 2C6-E: @La réceptionniste qui[BREAK] travaille à la mairie est[BREAK] vraiment super canon.[BREAK][END]
 2C7: @Hey [21 78 74], how's[BREAK] your asthma?[BREAK][PAUSE]@Mine has gotten[BREAK] better,[BREAK][PAUSE]@but car exhausts[BREAK] still sets it off.[BREAK][END]
@@ -2071,11 +2071,11 @@
 40B: "Bomb"[BREAK]@Maybe only [21 F8 74][BREAK] can detonate it.[BREAK][END]
 40B-E: "Bombe"[BREAK]@Seul [21 F8 74] semble pouvoir[BREAK] l'utiliser.[BREAK][END]
 40C: "Super Bomb"[BREAK]@Written on the side[BREAK] "Beware of blast",[BREAK][PAUSE]@only [21 F8 74] can[BREAK] use it.[BREAK][END]
-40C-E: "Super bombe"[BREAK]@Porte la mention :[BREAK] "Danger ! Explosif !"[BREAK][PAUSE]@Laissez [21 F8 74] s'en[BREAK] charger.[BREAK][END]
+40C-E: "Super bombe"[BREAK]@Porte la mention :[BREAK] "Danger ! Explosif !"[BREAK][PAUSE] Laissez [21 F8 74] s'en[BREAK] charger.[BREAK][END]
 40D: "Laser Beam"[BREAK]@It helps that sissy[BREAK] [21 F8 74].[BREAK][END]
 40D-E: "Rayon laser"[BREAK]@Si jamais cette mauviette[BREAK] d[03 52][21 F8 74] venait à l'avoir[BREAK] entre les mains...[BREAK][END]
 40E: "Plasma Beam"[BREAK]@It helps that weenie[BREAK] [21 F8 74] quite a lot.[BREAK][END]
-40E-E: "Rayon de la mort"[BREAK]@Si ce lâche d[03 52][21 F8 74] en[BREAK] venait à l'utiliser, il[BREAK] pourrait faire sensation.[BREAK][END]
+40E-E: "Rayon mortel"[BREAK]@Si ce lâche d[03 52][21 F8 74] en[BREAK] venait à l'utiliser, il[BREAK] pourrait faire sensation.[BREAK][END]
 40F: [END]
 40F-E: [END]
 410: "Rope"[BREAK]@Use it to tie the[BREAK] enemy up.[BREAK][END]
@@ -2141,7 +2141,7 @@
 42E: [END]
 42E-E: [END]
 42F: "Bread"[BREAK]@OK to eat it,[BREAK] but its CRUMBS can[BREAK] be used[BREAK][PAUSE]@to mark your trail.[BREAK][END]
-42F-E: "Pain"[BREAK]@Bon à manger.[BREAK][PAUSE]@Vous pouvez aussi utiliser[BREAK] ses miettes pour tracer[BREAK] une piste et revenir sur[BREAK] vos pas plus tard.[BREAK][END]
+42F-E: "Pain"[BREAK]@Bon à manger.[BREAK][PAUSE] Vous pouvez aussi utiliser[BREAK] ses miettes pour tracer[BREAK] une piste et revenir sur[BREAK] vos pas plus tard.[BREAK][END]
 430: "Noble Seed"[BREAK]@USE this to cancel[BREAK] the Wicked Seed.[BREAK][END]
 430-E: "Graine d'ange"[BREAK]@Lève la malédiction de la[BREAK] Graine de démon.[BREAK][END]
 431: "PSI Stone"[BREAK]@PSI Power in solid[BREAK] form.[BREAK][END]
@@ -2175,7 +2175,7 @@
 43F: "Ghost House Key"[BREAK]@This is the Key to[BREAK] the Rosemary's house.[BREAK][END]
 43F-E: "Clé du manoir hanté"[BREAK]@La clé du manoir des[BREAK] Rosemary.[BREAK][END]
 440: "Great-Grand Father's[BREAK] Diary"[BREAK]@It is old,[BREAK] ragged, and filled[BREAK] with entries.[BREAK][END]
-440-E: "Journal arrière-grd-père"[BREAK]@Le journal de l'arrière-[BREAK] grand-père d[03 50][21 78 74].[BREAK][PAUSE]@Il est rempli d'écritures,[BREAK] mais il est en si mauvais[BREAK] état que c'est quasiment[BREAK] illisible.[BREAK][END]
+440-E: "Journal de l'arrière-[BREAK]grand-père d[03 50][21 78 74]"[BREAK][PAUSE]@Il est rempli d'écritures,[BREAK]mais il est en si mauvais[BREAK]état que c'est quasiment[BREAK]illisible.
 441: "Pass"[BREAK]@Printed on it,[BREAK] "Duncan Factory[BREAK] Employee".[BREAK][END]
 441-E: "Passe"[BREAK]@Il comporte l'inscription :[BREAK] "Employé usine de Duncan".[BREAK][END]
 442: "Ticket"[BREAK]@Printed on it,[BREAK][PAUSE]@"Rock'n Roll all[BREAK] night and every day[BREAK] at The Live Show".[BREAK][END]
@@ -2253,7 +2253,7 @@
 466: [END]
 466-E: 
 467: "Debug"[BREAK]@.......[BREAK][END]
-467-E: Coords.[BREAK][END]
+467-E: "Debug"[BREAK]@.......[BREAK][END]
 468: 
 468-E: 
 469: 
@@ -3579,7 +3579,7 @@
 6FD: 
 6FD-E: 
 6FE:  [BREAK] [BREAK] [BREAK] [BREAK][END]
-6FE-E: [BREAK][BREAK][BREAK][BREAK][END]
+6FE-E:  [BREAK] [BREAK] [BREAK] [BREAK][END]
 6FF: At the summit of Mt. Itoi,[BREAK][21 B8 74] is reunited with her[BREAK]mom as the rest of the freed[BREAK]Earth people exit the cave.[BREAK][END]
 6FF-E: [21 B8 74] retrouve sa mère[BREAK]pendant que les autres[BREAK]terriens libérés quittent[BREAK]la grotte du mont Itoi.[BREAK][END]
 700:  [21 38 75], his health fully[BREAK] recovered, now sings daily[BREAK] at The Live Show.[BREAK][END]
@@ -3599,87 +3599,87 @@
 707:  I know that boy is home.[BREAK] Come on son and answer the[BREAK] phone. Something new has[BREAK] come up and...[BREAK][END]
 707-E: Allô·? C'est Papa. Désolé de[BREAK]te réveiller, mais il est[BREAK]peut-être encore un peu[BREAK]trop tôt pour se reposer...[BREAK][END]
 708: [21 20 74][END]
-708-E: 
+708-E: [21 20 74]
 709: SHIGESATO ITOI[END]
-709-E: "Grand sac"[BREAK]@Un sac rempli à ras bord[BREAK]d'Herbes magiques.[END]
+709-E: SHIGESATO ITOI[END]
 70A: MIYUKI KURE[END]
-70A-E: "Carte téléphonique"[BREAK]@Vous permet de passer[BREAK]50 appels gratuits depuis[BREAK]des téléphones publics.[END]
+70A-E: MIYUKI KURE[END]
 70B: AKIO OHMORI[END]
-70B-E: "Miettes de pain"[BREAK]@Permet de retourner à[BREAK]l'endroit où la piste de[BREAK]miettes a commencé.[END]
+70B-E: AKIO OHMORI[END]
 70C: RITSUO KAMIMURA[END]
-70C-E: "Bague répulsive"[BREAK]@Utilisez-la pour repousser[BREAK]les ennemis faibles pendant[BREAK]une courte période.[END]
+70C-E: RITSUO KAMIMURA[END]
 70D: KEIICHI SUZUKI[END]
-70D-E: 
+70D-E: KEIICHI SUZUKI[END]
 70E: HIROKAZU TANAKA[END]
-70E-E: "Puce mémoire"[BREAK]@Une partie des souvenirs de[BREAK]George, l'arrière-grand-[BREAK]père, est inscrite dessus.[BREAK][PAUSE]@[21 78 74] peut l'utiliser pour[BREAK]retourner à l'endroit où se[BREAK]trouve ÈVE.[END]
+70E-E: HIROKAZU TANAKA[END]
 70F: SHINBO MINAMI[END]
-70F-E: 
+70F-E: SHINBO MINAMI[END]
 710: TATSUYA ISHII[END]
-710-E: 
+710-E: TATSUYA ISHII[END]
 711: TOTTORI[END]
-711-E: 
+711-E: TOTTORI[END]
 712: KAZUYA NAKATANI[END]
-712-E: "Couteau"[BREAK]@Un couteau de poche qui[BREAK]sert d'arme. [21 38 75] peut[BREAK]le manier avec talent.[END]
+712-E: KAZUYA NAKATANI[END]
 713: TAKAYUKI ONODERA[END]
-713-E: "Couteau de survie"[BREAK]@Une arme pour [21 38 75].[BREAK]Il semble plus robuste[BREAK]qu'un couteau ordinaire.[END]
+713-E: TAKAYUKI ONODERA[END]
 714: MOTOO YASUMA[END]
-714-E: "Épée simple"[BREAK]@Seuls quelques initiés sont[BREAK]capables de la manier.[END]
+714-E: MOTOO YASUMA[END]
 715: MASAYUKI KAMEYAMA[END]
-715-E: "Katana"[BREAK]@[21 38 75] peut utiliser[BREAK]cette lame japonaise.[BREAK][PAUSE]@C'est l'arme la plus[BREAK]puissante qui existe.[END]
+715-E: MASAYUKI KAMEYAMA[END]
 716: HIDEO KON[END]
-716-E: "Taser"[BREAK]@Un pistolet paralysant.[BREAK][21 F8 74] peut probablement[BREAK]l'utiliser.[END]
+716-E: HIDEO KON[END]
 717: KATSUTOMO MAEIWA[END]
-717-E: "Pistolet à billes"[BREAK]@Il s'agit d'une arme[BREAK]redoutable, mais seul[BREAK][21 F8 74] peut l'utiliser.[END]
+717-E: KATSUTOMO MAEIWA[END]
 718: KUNIKO SAKURAI[END]
-718-E: "Batte fêlée"[BREAK]@[21 78 74], essaie de t'en[BREAK]servir comme une arme·![END]
+718-E: KUNIKO SAKURAI[END]
 719: MASAHIRO TATEMOTO[END]
-719-E: "Batte ordinaire"[BREAK]@Elle devrait être efficace[BREAK]contre les ennemis faibles,[BREAK][21 78 74].[END]
+719-E: MASAHIRO TATEMOTO[END]
 71A: TAKASHI KAWAGUCHI[END]
-71A-E: "Batte robuste"[BREAK]@Avec ça, [21 78 74] peut[BREAK]affronter des ennemis[BREAK]puissants.[END]
+71A-E: TAKASHI KAWAGUCHI[END]
 71B: KEIZOH KATOH[END]
-71B-E: "Batte suprême"[BREAK]@Une batte spectaculaire[BREAK]portant l'autographe d'un[BREAK]athlète renommé.[END]
+71B-E: KEIZOH KATOH[END]
 71C: MOTOHIRO ISHII[END]
-71C-E: "Poêle à frire"[BREAK]@[21 B8 74] peut l'utiliser[BREAK]comme une arme.[END]
+71C-E: MOTOHIRO ISHII[END]
 71D: AKIHITO TODA[END]
-71D-E: "Poêle de qualité"[BREAK]@Une poêle antiadhésive[BREAK]qu[03 51][21 B8 74] peut utiliser[BREAK]comme une arme.[END]
+71D-E: AKIHITO TODA[END]
 71E: YUKARI SAITOH[END]
-71E-E: "Poêle d'exception"[BREAK]@Même les pires gredins ne[BREAK]résistent pas aux coups de[BREAK]cette lourde poêle.[END]
+71E-E: YUKARI SAITOH[END]
 71F: PHIL SANDHOP[END]
-71F-E: "Lance-pierre"[BREAK]@Une arme simple que tout[BREAK]le monde peut utiliser.[END]
+71F-E: PHIL SANDHOP[END]
 720: TOSHIKO WATSON[END]
-720-E: "Boomerang"[BREAK]@À manier avec précaution,[BREAK]ce n'est pas un jouet. Une[BREAK]arme utilisable par tous.[END]
+720-E: TOSHIKO WATSON[END]
 721: YUKA NAKATA[END]
-721-E: "Insecticide"[BREAK]@Plus ou moins efficace[BREAK]contre les insectes et tout[BREAK]ce qui y ressemble.[END]
+721-E: YUKA NAKATA[END]
 722: HIROKO FAULKNER[END]
-722-E: "Super insecticide"[BREAK]@Un insecticide encore plus[BREAK]puissant.[END]
+722-E: HIROKO FAULKNER[END]
 723: TONY HARMAN[END]
-723-E: "Bombe de puces"[BREAK]@Remplie de puces et de[BREAK]poux. Essayez de la lancer[BREAK]sur un ennemi·![END]
+723-E: TONY HARMAN[END]
 724: DAYV BROOKS[END]
-724-E: "Mots d'amour"[BREAK]@???[END]
+724-E: DAYV BROOKS[END]
 725: NORIYUKI MINAMI[END]
-725-E: "Mots amers"[BREAK]@???[END]
+725-E: NORIYUKI MINAMI[END]
 726: BIN OHGAWARA[END]
-726-E: "Appareil à gélatine"[BREAK]@Il SEMBLE pouvoir être[BREAK]utile en combat, mais...[END]
+726-E: BIN OHGAWARA[END]
 727: YOSHIHISA WADA[END]
-727-E: "Ombre de poche"[BREAK]@L'exact opposé d'une lampe[BREAK]de poche.[END]
+727-E: YOSHIHISA WADA[END]
 728: HIKONORI SUZUKI[END]
-728-E: 
+728-E: HIKONORI SUZUKI[END]
 729: TAKAO SHIMIZU[END]
-729-E: 
+729-E: TAKAO SHIMIZU[END]
 72A: SHIGERU MIYAMOTO[END]
-72A-E: "Lance-flammes"[BREAK]@Peut carboniser plusieurs[BREAK]ennemis, mais seul [21 F8 74][BREAK]peut l'utiliser.[END]
+72A-E: SHIGERU MIYAMOTO[END]
 72B: HIROSHI YAMAUCHI[END]
-72B-E: "Bombe"[BREAK]@Seul [21 F8 74] semble pouvoir[BREAK]l'utiliser.[END]
+72B-E: HIROSHI YAMAUCHI[END]
 72C: 
-72C-E: "Super bombe"[BREAK]@Porte la mention :[BREAK]"Danger ! Explosif !"[BREAK][PAUSE] Laissez [21 F8 74] s'en[BREAK]charger.
+72C-E: 
 72D: 
-72D-E: "Rayon laser"[BREAK]@Si jamais cette mauviette[BREAK]d[03 52][21 F8 74] venait à l'avoir[BREAK]entre les mains...
+72D-E: 
 72E: 
-72E-E: "Rayon mortel"[BREAK]@Si ce lâche d[03 52][21 F8 74] en[BREAK]venait à l'utiliser, il[BREAK]pourrait faire sensation.
+72E-E: 
 72F: 
 72F-E: 
 730: 
-730-E: "Corde"[BREAK]@Utilisez-la pour ligoter un[BREAK]ennemi.
+730-E: 
 731: 
 731-E: 
 732: 
@@ -3689,27 +3689,27 @@
 734: 
 734-E: 
 735: 
-735-E: "Pièce de paix"[BREAK]@Augmente très légèrement[BREAK]votre défense si équipée.
+735-E: 
 736: 
-736-E: "Pièce protectrice"[BREAK]@Augmente modérément[BREAK]votre défense si équipée.
+736-E: 
 737: 
-737-E: "Pièce magique"[BREAK]@Augmente fortement votre[BREAK]défense si équipée.
+737-E: 
 738: 
-738-E: "Bracelet de fée"[BREAK]@Augmente légèrement votre[BREAK]défense si équipé.
+738-E: 
 739: 
-739-E: "Bracelet d'ange"[BREAK]@Augmente significativement[BREAK]votre défense si équipé.
+739-E: 
 73A: 
-73A-E: "Bracelet de déesse"[BREAK]@Augmente considérablement[BREAK]votre défense si équipé.
+73A-E: 
 73B: 
-73B-E: "Pendentif de pluie"[BREAK]@Réduit les dégâts causés[BREAK]par PK Feu si équipé.
+73B-E: 
 73C: 
-73C-E: "Pendentif de feu"[BREAK]@Réduit les dégâts causés[BREAK]par PK Glace si équipé.
+73C-E: 
 73D: 
-73D-E: "Pendentif de terre"[BREAK]@Réduit les dégâts causés[BREAK]par PK Foudre si équipé.
+73D-E: 
 73E: 
-73E-E: "Pendentif de mer"[BREAK]@Réduit les dégâts causés[BREAK]par PK Feu, PK Glace et[BREAK]PK Foudre si équipé.
+73E-E: 
 73F: 
-73F-E: "Bague facile"[BREAK]@Réduit la fréquence des[BREAK]combats et booste l'EXP et[BREAK]l'argent reçus si équipée.
+73F-E: 
 740: 
 740-E: 
 741: 
@@ -3719,67 +3719,67 @@
 743: 
 743-E: 
 744: 
-744-E: "Jus d'orange"[BREAK]@Riche en vitamine C.[BREAK]Restaure un peu de PV.
+744-E: 
 745: 
-745-E: "Frites"[BREAK]@Restaure des PV, avec ou[BREAK]sans ketchup.
+745-E: 
 746: 
-746-E: "Herbe magique"[BREAK]@À utiliser quand vous êtes[BREAK]fatigué ou blessé.
+746-E: 
 747: 
-747-E: "Hamburger"[BREAK]@De la restauration rapide[BREAK]pour restaurer rapidement[BREAK]les PV.
+747-E: 
 748: 
-748-E: "Boisson énergisante"[BREAK]@Buvez ceci pour reprendre[BREAK]des forces, peu importe[BREAK]votre état de fatigue.
+748-E: 
 749: 
-749-E: "Remède"[BREAK]@Guérit les blessures.
+749-E: 
 74A: 
-74A-E: "Inhalateur"[BREAK]@Si [21 78 74] est pris d'une[BREAK]crise d'asthme, utilisez[BREAK]ceci pour le calmer.
+74A-E: 
 74B: 
-74B-E: "Antidote"[BREAK]@Neutralise rapidement les[BREAK]effets du poison.
+74B-E: 
 74C: 
-74C-E: "Bain de bouche"[BREAK]@Gargarisez-vous avec ceci[BREAK]pour faire passer le rhume.
+74C-E: 
 74D: 
-74D-E: "Tofu à la fraise"[BREAK]@Franchement, vous n'auriez[BREAK]pas envie d'y goûter ?
+74D-E: 
 74E: 
 74E-E: 
 74F: 
-74F-E: "Pain"[BREAK]@Bon à manger.[BREAK][PAUSE] Vous pouvez aussi utiliser[BREAK]ses miettes pour tracer[BREAK]une piste et revenir sur[BREAK]vos pas plus tard.
+74F-E: 
 750: 
-750-E: "Graine d'ange"[BREAK]@Lève la malédiction de la[BREAK]Graine de démon.
+750-E: 
 751: 
-751-E: "Pierre PSI"[BREAK]@Cette pierre regorge de[BREAK]pouvoir PSI.
+751-E: 
 752: 
 752-E: 
 753: 
-753-E: "Ruban magique"[BREAK]@Augmente un peu la force[BREAK]lorsqu'il est attaché dans[BREAK]les cheveux d'une fille.
+753-E: 
 754: 
-754-E: "Bonbon magique"[BREAK]@Augmente un peu la fougue[BREAK]lorsqu'il est mangé par[BREAK]une mauviette.
+754-E: 
 755: 
 755-E: 
 756: 
-756-E: "Capsule de vitesse"[BREAK]@Augmente la vitesse.
+756-E: 
 757: 
-757-E: "Capsule de sagesse"[BREAK]@Augmente la sagesse.
+757-E: 
 758: 
-758-E: "Capsule de vigueur"[BREAK]@Augmente la vigueur.
+758-E: 
 759: 
-759-E: "Capsule de force"[BREAK]@Augmente la force.
+759-E: 
 75A: 
-75A-E: "Capsule de fougue"[BREAK]@Augmente la fougue.
+75A-E: 
 75B: 
 75B-E: 
 75C: 
 75C-E: 
 75D: 
-75D-E: "Clé de la cave"[BREAK]@Nécessaire pour accéder[BREAK]à la cave.
+75D-E: 
 75E: 
-75E-E: "Clé du zoo"[BREAK]@Elle devrait ouvrir le[BREAK]portail d'entrée du zoo.
+75E-E: 
 75F: 
-75F-E: "Clé du manoir hanté"[BREAK]@La clé du manoir des[BREAK]Rosemary.
+75F-E: 
 760: 
-760-E: "Journal de l'arrière-[BREAK]grand-père d[03 50][21 78 74]"[BREAK][PAUSE]@Il est rempli d'écritures,[BREAK]mais il est en si mauvais[BREAK]état que c'est quasiment[BREAK]illisible.
+760-E: 
 761: 
-761-E: "Passe"[BREAK]@Il comporte l'inscription :[BREAK]"Employé usine de Duncan".
+761-E: 
 762: 
-762-E: "Billet de spectacle"[BREAK]@Il y est écrit : "Spectacle[BREAK]live de rock 'n' roll tous[BREAK]les soirs".
+762-E: 
 763: 
 763-E: 
 764: 
@@ -3789,41 +3789,41 @@
 766: 
 766-E: 
 767: 
-767-E: "Bébé canari"[BREAK]@On peut voir la solitude[BREAK]dans ses yeux.
+767-E: 
 768: 
 768-E: 
 769: 
-769-E: "Fusée crayon"[BREAK]@[21 F8 74] devrait savoir[BREAK]comment s'en servir.
+769-E: 
 76A: 
-76A-E: "Chapeau"[BREAK]@Un joli chapeau avec le nom[BREAK]"[21 B8 74]" brodé dessus.
+76A-E: 
 76B: 
-76B-E: "Dentier"[BREAK]@Inutile si vous prenez soin[BREAK]de vous brosser les dents[BREAK]régulièrement.
+76B-E: 
 76C: 
-76C-E: "Talon de ticket"[BREAK]@Il y est écrit : "Échangez[BREAK]10 talons de tickets contre[BREAK]un tour en char gratuit !".
+76C-E: 
 76D: 
 76D-E: 
 76E: 
-76E-E: "Ocarina de l'espoir"[BREAK]@Vous permet de réécouter[BREAK]les mélodies que vous avez[BREAK]collectées.
+76E-E: 
 76F: 
 76F-E: 
 770: 
-770-E: "Badge Franklin"[BREAK]@Il aurait protégé Benjamin[BREAK]Franklin lors de ses[BREAK]expériences sur la foudre.
+770-E: 
 771: 
 771-E: 
 772: 
 772-E: 
 773: 
-773-E: "Crochet d'onyx"[BREAK]@Vous pouvez retourner à[BREAK]Magicant depuis n'importe[BREAK]où en utilisant ceci.
+773-E: 
 774: 
-774-E: "Arme ultime"[BREAK]@???
+774-E: 
 775: 
-775-E: "Règle"[BREAK]@Une règle de 30 cm.
+775-E: 
 776: 
-776-E: "Carte bancaire"[BREAK]@Utilisez-la pour déposer ou[BREAK]retirer de l'argent sur[BREAK]votre compte bancaire.
+776-E: 
 777: 
-777-E: "Herbe rouge"[BREAK]@À première vue, elle[BREAK]ressemble à une herbe[BREAK]ordinaire, pourtant...
+777-E: 
 778: 
-778-E: "Mégaphone magique"[BREAK]@Utilisez-le pour effrayer[BREAK]les ennemis avec votre voix[BREAK]puissante.
+778-E: 
 779: 
 779-E: 
 77A: 
@@ -3859,79 +3859,79 @@
 789: 
 789-E: 
 78A: 
-78A-E: [21 20 74]
+78A-E: 
 78B: 
-78B-E: SHIGESATO ITOI
+78B-E: 
 78C: 
-78C-E: MIYUKI KURE
+78C-E: 
 78D: 
-78D-E: AKIO OHMORI
+78D-E: 
 78E: 
-78E-E: RITSUO KAMIMURA
+78E-E: 
 78F: 
-78F-E: KEIICHI SUZUKI
+78F-E: 
 790: 
-790-E: HIROKAZU TANAKA
+790-E: 
 791: 
-791-E: SHINBO MINAMI
+791-E: 
 792: 
-792-E: TATSUYA ISHII
+792-E: 
 793: 
-793-E: TOTTORI
+793-E: 
 794: 
-794-E: KAZUYA NAKATANI
+794-E: 
 795: 
-795-E: TAKAYUKI ONODERA
+795-E: 
 796: 
-796-E: MOTOO YASUMA
+796-E: 
 797: 
-797-E: MASAYUKI KAMEYAMA
+797-E: 
 798: 
-798-E: HIDEO KON
+798-E: 
 799: 
-799-E: KATSUTOMO MAEIWA
+799-E: 
 79A: 
-79A-E: KUNIKO SAKURAI
+79A-E: 
 79B: 
-79B-E: MASAHIRO TATEMOTO
+79B-E: 
 79C: 
-79C-E: TAKASHI KAWAGUCHI
+79C-E: 
 79D: 
-79D-E: KEIZOH KATOH
+79D-E: 
 79E: 
-79E-E: MOTOHIRO ISHII
+79E-E: 
 79F: 
-79F-E: AKIHITO TODA
+79F-E: 
 7A0: 
-7A0-E: YUKARI SAITOH
+7A0-E: 
 7A1: 
-7A1-E: PHIL SANDHOP
+7A1-E: 
 7A2: 
-7A2-E: TOSHIKO WATSON
+7A2-E: 
 7A3: 
-7A3-E: YUKA NAKATA
+7A3-E: 
 7A4: 
-7A4-E: HIROKO FAULKNER
+7A4-E: 
 7A5: 
-7A5-E: TONY HARMAN
+7A5-E: 
 7A6: 
-7A6-E: DAYV BROOKS
+7A6-E: 
 7A7: 
-7A7-E: NORIYUKI MINAMI
+7A7-E: 
 7A8: 
-7A8-E: BIN OHGAWARA
+7A8-E: 
 7A9: 
-7A9-E: YOSHIHISA WADA
+7A9-E: 
 7AA: 
-7AA-E: HIKONORI SUZUKI
+7AA-E: 
 7AB: 
-7AB-E: TAKAO SHIMIZU
+7AB-E: 
 7AC: 
-7AC-E: SHIGERU MIYAMOTO
+7AC-E: 
 7AD: 
-7AD-E: HIROSHI YAMAUCHI
+7AD-E: 
 7AE: 
-7AE-E: ANTHIFLO
+7AE-E: 
 7AF: 
 7AF-E: 
 7B0: 
