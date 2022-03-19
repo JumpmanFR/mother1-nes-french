@@ -221,7 +221,7 @@
 06E: @[21 0A 67] felt this[BREAK] question enter [BREAK] his mind.[BREAK][PAUSE]@"Who has lost[BREAK] his tail?"[BREAK][END]
 06E-E: @[21 0A 67] entend ces mots...[BREAK][PAUSE]@"Où se trouve la queue de[BREAK] l'esprit·?"[BREAK][END]
 06F: @My! What strange[BREAK] clothing you wear![BREAK][PAUSE]@Surely monsters[BREAK] will come after[BREAK] those clothes!![BREAK][END]
-06F-E: @Ouah, tu portes vraiment[BREAK] des habits étranges.[BREAK][PAUSE]@Tu vas attirer les monstres[BREAK] en étant habillé comme ça·![BREAK][END]
+06F-E: @Ouah, tu portes vraiment[BREAK] des habits étranges.[BREAK][PAUSE]@Tu vas attirer les[BREAK] monstres en étant[BREAK] habillé[03 62] comme ça·![BREAK][END]
 070: 
 070-E: 
 071: @Are you bothered that[BREAK] unhappiness and[BREAK][PAUSE]@misfortune search[BREAK] you out?[BREAK][END]
@@ -275,9 +275,9 @@
 089: @Boo hoo hoo... You[BREAK] should accept[BREAK] kindness graciously.[BREAK][END]
 089-E: @Ouah·! Tu es censé accepter[BREAK] quand on te propose quelque[BREAK] chose gentiment·![BREAK][END]
 08A: @Oh, traveller! Why[BREAK] don't you enjoy a[BREAK] meal at our house?[BREAK][PAUSE]@Well.... Today's[BREAK] special. Can you[BREAK] guess what it is?[BREAK][END]
-08A-E: @Oh, un voyageur·! Pourquoi[BREAK] ne viendrais-tu pas manger[BREAK] avec nous·?[BREAK][PAUSE]@Tiens, saurais-tu[BREAK] deviner ce qu'on mange[BREAK] aujourd'hui·?[BREAK][END]
+08A-E: @Oh, un[03 62] voyageu[03 6E][03 62]·![BREAK] Pourquoi ne viendrais-tu[BREAK] pas manger avec nous·?[BREAK][PAUSE]@Tiens, saurais-tu[BREAK] deviner ce qu'on mange[BREAK] aujourd'hui·?[BREAK][END]
 08B: @Why not!? You sound[BREAK] so suspicious![BREAK][END]
-08B-E: @Hein·? Tu n'arrives pas à[BREAK] trouver·?[BREAK] Tu es vraiment suspect·![BREAK][END]
+08B-E: @Hein·? Tu n'arrives pas à[BREAK] trouver·?[BREAK] Tu es vraiment[03 62] suspect·![BREAK][END]
 08C: @Yes, it's [BREAK] [21 89 76].[BREAK][PAUSE]@I knew you liked[BREAK] [21 89 76]. Do you[BREAK] want some?[BREAK][END]
 08C-E: @C'est ça, un plat[BREAK] d[03 5F][21 89 76].[BREAK][PAUSE]@J'ai lu dans ton esprit et[BREAK] j'ai décidé de préparer un[BREAK] peu d[03 5F][21 89 76].[BREAK][PAUSE]@Alors, ça te plaît ?[BREAK][END]
 08D: 
@@ -353,7 +353,7 @@
 0B0: @You tried to[BREAK] ignore me, didn't[BREAK] you?[BREAK][PAUSE]@I'm so lonesome[BREAK] out here, all by[BREAK] myself.[BREAK][PAUSE]@I will do[BREAK] anything I can.[BREAK] Here![BREAK][END]
 0B0-E: @Tu as essayé de m'ignorer,[BREAK] pas vrai·?[BREAK][PAUSE]@Qu'est-ce que je peux[BREAK] m'ennuyer, ici, tout seul.[BREAK][PAUSE]@Si je peux faire quoi que[BREAK] ce soit, je le ferai.[BREAK][PAUSE]@Tiens·![BREAK][END]
 0B1: @How happy I am[BREAK] that you came to[BREAK] see me.[BREAK][PAUSE]@I know what you[BREAK] would like me to[BREAK] do. Here![BREAK][END]
-0B1-E: @Je suis très heureux de te[BREAK] voir·![BREAK][PAUSE]@Je sais exactement ce que[BREAK] tu veux.[BREAK][PAUSE]@Et voilà·![BREAK][END]
+0B1-E: @[03 7B][BREAK][PAUSE]@[03 7C][BREAK][PAUSE]@Et voilà·![BREAK][END]
 0B2: @Listen to my song![BREAK] Oh music-loving[BREAK] adventurer [21 0A 67]![BREAK][PAUSE]@Why do you cry,[BREAK] oh Cupid-Doll?[BREAK][PAUSE]@Canary sings[BREAK] so sadly.[BREAK][PAUSE]@Monkey sings,[BREAK] Piano plays,[BREAK][PAUSE]@maybe there[BREAK] is a ghost?[BREAK][PAUSE]@Desert Cactus[BREAK] so alone,[BREAK][PAUSE]@every night[BREAK] his sad, sad tone.[BREAK][PAUSE]@The Dragon sleeps,[BREAK] the note remains.[BREAK][PAUSE]@Eve's last song[BREAK] has no refrain.[BREAK][PAUSE]@On the Mount[BREAK] named Itoi,[BREAK][PAUSE]@you must climb[BREAK] high young boy.[BREAK][PAUSE]@See the XX Stone,[BREAK] for the last tone,[BREAK][PAUSE]@then do not leave[BREAK] Queen Mary alone![BREAK][PAUSE]@La la lullaby...[BREAK] Strange lullaby...[BREAK][PAUSE]@Bye bye bye...[BREAK] Good-bye.[BREAK][PAUSE]@Sure is a nice[BREAK] song, isn't it?[BREAK][END]
 0B2-E: @J'ai enfin écrit une[BREAK] chanson·![BREAK][PAUSE]@Écoute-la donc, cher[BREAK] aventurier mélomane·![BREAK][PAUSE]@Oh, poupée, dis-moi,[BREAK] pourquoi pleures-tu ?[BREAK][PAUSE]@Le canari, chagriné,[BREAK] depuis longtemps s'est tu.[BREAK][PAUSE]@Un singe qui sait chanter,[BREAK] patiente dans son enclos.[BREAK][PAUSE]@De redoutables fantômes,[BREAK] parfois jouent du piano.[BREAK][PAUSE]@Chaque nuit dans le désert,[BREAK] siffle le cactus solitaire.[BREAK][PAUSE]@Le dragon, une fois rossé,[BREAK] fredonne un petit air.[BREAK][PAUSE]@Sur la montagne escarpée,[BREAK] ÈVE pousse un faible cri.[BREAK][PAUSE]@La pierre XX a l'ultime[BREAK] mélodie que cherche Mary.[BREAK][PAUSE]@Lalala, étrange comptine,[BREAK] tu me fais bâiller.[BREAK][PAUSE]@Comptine, douce comptine,[BREAK] continue de me bercer.[BREAK][PAUSE]@Qu'en dis-tu[4F]? Belle[BREAK] chanson, hein[4F]?[BREAK][PAUSE]@Sérieusement, elle est[BREAK] belle, non[4F]?[BREAK][END]
 0B3: @Deep in the woods,[BREAK] is a guitar player[BREAK] who is a hermit.[BREAK][PAUSE]@Not that bad[BREAK] looking of a[BREAK] man...[BREAK][PAUSE]@Best of all,[BREAK] he's quite a poet.[BREAK][END]
@@ -491,7 +491,7 @@
 0F5: @Until the curfew[BREAK] is lifted, no one[BREAK] can cross.[BREAK][PAUSE]@That is by order[BREAK] of the Town Mayor.[BREAK][PAUSE]@Psst...[BREAK] by the way kid,[BREAK][PAUSE]@they might let you[BREAK] cross the bridge[BREAK] northeast of The Zoo.[BREAK][END]
 0F5-E: @Personne ne peut traverser[BREAK] le pont jusqu'à ce que la[BREAK] loi martiale ne soit levée.[BREAK][PAUSE]@C'est un ordre du maire.[BREAK][PAUSE]@Je te suggère d'emprunter[BREAK] le pont à l'est du zoo en[BREAK] attendant.[BREAK][END]
 0F6: @What happened to[BREAK] school? You have[BREAK] school, don't you?[BREAK][END]
-0F6-E: @Hé, pourquoi tu n'es pas à[BREAK] l'école, gamin·?[BREAK][PAUSE]@Je suis quasiment sûr qu'il[BREAK] y a école aujourd'hui.[BREAK][END]
+0F6-E: @Hé, pourquoi tu n'es pas à[BREAK] l'école, petit[03 62]·?[BREAK][PAUSE]@Je suis quasiment sûr qu'il[BREAK] y a école aujourd'hui.[BREAK][END]
 0F7: @I got this from[BREAK] Duncan's factory[BREAK] in the north.[BREAK][END]
 0F7-E: @J'ai piqué une batterie à[BREAK] l'usine de Duncan qui est[BREAK] au nord d'ici.[BREAK][END]
 0F8: @This factory is[BREAK] Mr. Duncan's[BREAK] private property.[BREAK][PAUSE]@Let's see your[BREAK] Pass![BREAK][END]
@@ -515,7 +515,7 @@
 101: @Hey, [21 F8 74]![BREAK] You weakling![BREAK][END]
 101-E: @Hé [21 F8 74], t'es qu'une[BREAK] mauviette à grosse tête·![BREAK][END]
 102: @We've been picking[BREAK] on that weakling[BREAK] [21 F8 74], right?[BREAK][END]
-102-E: @T'es allé embêter cette[BREAK] mauviette d[03 52][21 F8 74], pas[BREAK] vrai·?[BREAK][END]
+102-E: @T'es allé[03 62] embêter cette[BREAK] mauviette d[03 52][21 F8 74], pas[BREAK] vrai·?[BREAK][END]
 103: @Just teasing.[BREAK][END]
 103-E: @Quoi·?! C'était juste une[BREAK] blague·?![BREAK][END]
 104: @I saw [21 F8 74][BREAK] steal explosives!![BREAK][PAUSE]@I'm afraid of what[BREAK] Mr. Teacher will[BREAK] say.[BREAK][END]
@@ -525,7 +525,7 @@
 106: @I am Suzy. I'm[BREAK] Miss Merrysville.[BREAK][PAUSE]@Aren't I gorgeous?[BREAK][END]
 106-E: @Je m'appelle Suzy. J'ai[BREAK] remporté le titre de Miss[BREAK] Trou Paumé.[BREAK][PAUSE]@Est-ce que tu me trouves[BREAK] jolie·?[BREAK][END]
 107: @You look cute too.[BREAK][END]
-107-E: @Tu es très mignon, toi[BREAK] aussi.[BREAK][END]
+107-E: @Tu es très chou, toi aussi.[BREAK][END]
 108: @You are ugly![BREAK] You remind me of a[BREAK] noodlenoggin![BREAK][END]
 108-E: @Non mais, et toi, t'as vu[BREAK] ta tronche·?[BREAK][PAUSE]@"Andouille", c'est comme ça[BREAK] qu'on devrait t'appeler·![BREAK][END]
 109: @It's too bad that[BREAK] the door to the[BREAK] roof is locked.[BREAK][PAUSE] Maybe you'd like[BREAK] to join me...[BREAK][PAUSE]@I was going to[BREAK] sneak out and play[BREAK] with my Game Boy.[BREAK][END]
@@ -793,7 +793,7 @@
 18C: @Are you [21 0A 67]?[BREAK][END]
 18C-E: @[21 78 74]... c'est bien ça ?[BREAK][END]
 18D: @Don't get silly on[BREAK] me now.[BREAK][END]
-18D-E: @Oh allez, fait pas l'idiot.[BREAK][END]
+18D-E: @Oh allez, fais pas l'idiot.[BREAK][END]
 18E: @I must go on a[BREAK] trip to find my Mom,[BREAK] and...[BREAK][PAUSE]@I needed your[BREAK] help...[BREAK][PAUSE]@So I've been[BREAK] waiting for you,[BREAK] [21 0A 67].[BREAK][PAUSE]@First let's go see[BREAK] what is happening[BREAK] in Youngtown.[BREAK][END]
 18E-E: @Je t'attendais.[BREAK][PAUSE]@J'ai besoin de ton aide[BREAK] pour retrouver ma mère.[BREAK][PAUSE]@Commençons par aller voir[BREAK] ce qui s'est passé dans la[BREAK] ville de Youngtown.[BREAK][END]
 18F: @You have appeared.[BREAK] Just like in my[BREAK] dream...[BREAK][PAUSE]@The boy in my[BREAK] dream looked just[BREAK] like you.[BREAK][END]
@@ -1327,7 +1327,7 @@
 297: @You come to stay[BREAK] the night again?[BREAK][END]
 297-E: @Oh, tu reviens passer la[BREAK] nuit ici·?[BREAK][END]
 298: @Oh, traveller![BREAK][END]
-298-E: @Oh, un voyageur·![BREAK][END]
+298-E: @Oh, un[03 62] voyageu[03 6E][03 62]·![BREAK][END]
 299: @The ghost house is[BREAK] not a place for[BREAK] slaying monsters.[BREAK][PAUSE]@There is a...[BREAK] melody, hee-hee,[BREAK] a haunting melody.[BREAK][PAUSE]@Hee-hee-hee.[BREAK][END]
 299-E: @Si tu penses que ta mission[BREAK] est d'éliminer les fantômes[BREAK] dans la maison hantée...[BREAK][PAUSE]@alors tu fais fausse route.[BREAK][PAUSE]@Non, en réalité il y a une[BREAK] mélodie à l'intérieur.[BREAK][END]
 29A: 
@@ -1433,7 +1433,7 @@
 2CC: @Really? This is[BREAK] a respectable[BREAK] survey...[BREAK][END]
 2CC-E: @Hein ? Vraiment ?[BREAK][PAUSE]@C'est pourtant un sondage[BREAK] tout à fait honnête...[BREAK][END]
 2CD: @Get to school![BREAK] You are a school[BREAK] boy, aren't you?[BREAK][END]
-2CD-E: @Toi ! Va à l'école ![BREAK][PAUSE]@Tu es un élève, non ?![BREAK][END]
+2CD-E: @Toi ! Va à l'école ![BREAK][PAUSE]@Tu es un[03 62] élève, non ?![BREAK][END]
 2CE: @How can we get the[BREAK] big rocks off the[BREAK] railroad tracks?[BREAK][PAUSE]@I'll bet the Mayor[BREAK] leaves them there[BREAK] 'til election time.[BREAK][END]
 2CE-E: @Comment va-t-on dégager ces[BREAK] rochers de la voie ferrée ?[BREAK][PAUSE]@Si on laisse la mairie s'en[BREAK] charger, on n'est pas près[BREAK] de reprendre le train ![BREAK][END]
 2CF: @I've heard that in[BREAK] Duncan's[BREAK] Factory up north,[BREAK][PAUSE]@they've started[BREAK] building huge[BREAK] rockets.[BREAK][END]
@@ -1505,7 +1505,7 @@
 2F0: @Keep quiet in the[BREAK] library![BREAK][PAUSE]@Ahh--choo!![BREAK][END]
 2F0-E: @Chut ! C'est une[BREAK] bibliothèque, ne fais[BREAK] pas de bruit ![BREAK][PAUSE]@A-a-a-TCHOUM ![BREAK][END]
 2F1: @You think I'm the[BREAK] world's greatest[BREAK] fisherman?[BREAK][PAUSE]@Well, not quite[BREAK] that great. But,[BREAK] if you've a moment,[BREAK][PAUSE]@let me tell you[BREAK] some of my fishing[BREAK] stories.[BREAK][END]
-2F1-E: @[03 7B][BREAK][PAUSE]@Bon, je suis peut-être pas[BREAK] SI doué que ça, mais...[BREAK][PAUSE]@[03 7C][BREAK][END]
+2F1-E: @Oh, tu es là pour voir le[BREAK] meilleur pêcheur du monde,[BREAK] je présume.[BREAK][PAUSE]@Bon, je suis peut-être pas[BREAK] SI doué que ça, mais...[BREAK][PAUSE]@Hé, si tu as une heure à[BREAK] tuer, tu veux que je te[BREAK] raconte mes exploits ?[BREAK][END]
 2F2: @You're in the way,[BREAK] kid![BREAK][END]
 2F2-E: @Hors de ma vue, avorton ![BREAK][END]
 2F3: @Hey![BREAK][END]
@@ -2885,29 +2885,29 @@
 5A2: 
 5A2-E: vaincu[END]
 5A3: 
-5A3-E: Un mauvais rêve dont tu ne[BREAK]te réveilleras jamais...[END]
+5A3-E: Un mauvais rêve dont tu ne[BREAK] te réveilleras jamais...[END]
 5A4: 
 5A4-E: P A R S[END]
 5A5: 
 5A5-E: Ça f'ra [23 2A 00 02 00]$ pour toi.[END]
 5A6: 
-5A6-E: Donc t'inquiète pas, tu[BREAK]peux passer la nuit ici si[BREAK]tu veux.[END]
+5A6-E: Donc t'inquiète pas, tu[BREAK] peux passer la nuit ici si[BREAK] tu veux.[END]
 5A7: 
-5A7-E: Reviens passer la nuit ici[BREAK]une prochaine fois, OK ?[END]
+5A7-E: Reviens passer la nuit ici[BREAK] une prochaine fois, OK ?[END]
 5A8: 
 5A8-E: Oh ? Tu veux pas rester ?[END]
 5A9: 
-5A9-E: Hum, je ne peux pas te[BREAK]laisser entrer sans billet.[END]
+5A9-E: Hum, je ne peux pas te[BREAK] laisser entrer sans billet.[END]
 5AA: 
 5AA-E: Amuse-toi bien·![END]
 5AB: 
-5AB-E: Oh, tu es là pour voir le[BREAK]meilleur pêcheur du monde,[BREAK]je présume.[END]
+5AB-E: Je suis très heureux de ta[BREAK] venue[4F]![END]
 5AC: 
-5AC-E: Hé, si tu as une heure à[BREAK]tuer, tu veux que je te[BREAK]raconte mes exploits ?[END]
+5AC-E: Je sais exactement ce que[BREAK] tu veux.[END]
 5AD: 
 5AD-E: Tu vas chanter, toi aussi ?[END]
 5AE: 
-5AE-E: Ça roule ! Allez, mets le[BREAK]feu à la scène ![END]
+5AE-E: Ça roule ! Allez, mets le[BREAK] feu à la scène ![END]
 5AF: 
 5AF-E: Bah alors, t'es timide ?[END]
 5B0: 
