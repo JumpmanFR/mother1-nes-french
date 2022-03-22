@@ -89,7 +89,7 @@ int main(int argc, char *argv[])
 	printf("=====================================\r\n");
 	LoadTable();
 	InsertMainStuff();
-	//InsertSpecialText();
+	InsertSpecialText();
 	//InsertAltWindowData();
 	//InsertItemArticles();
     //InsertEnemyArticles();
@@ -620,16 +620,16 @@ void InsertSpecialText(void)
 	
 	char*  commentStr = (char*) "Insert M1 misc text";
 
-    fin = fopen("m1_misc_text.txt", "r");
+    fin = fopen("misc_text.txt", "r");
     if (fin == NULL)
     {
-		printf("Can't open m1_misc_text.txt");
+		printf("Can't open misc_text.txt");
 		return;
 	}
 
-    //fscanf(fin, "%x", &loc);
-//    fscanf(fin, "%s", str);
-    //fscanf(fin, "%s", line);
+	//fscanf(fin, "%x", &loc);
+	//fscanf(fin, "%s", str);
+	//fscanf(fin, "%s", line);
     fgets(line, 5000, fin);
     while(!feof(fin))
     {
