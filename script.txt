@@ -3021,7 +3021,7 @@
 5E6: [21 80 05] charged[BREAK]at [21 88 05]![END]
 5E6-E: (03 E2)[21 80 05][BREAK]se jette sur (03 EB)[21 88 05]·![END]
 5E7:   [97][98][99][9A][9B][9C][9D][9E][9F][END]
-5E7-E:   [97][98][99][9A][9B][9C][9D][9E][9F][END]
+5E7-E:   [77][78][79][7A][7B][7C][7D][7E][7F][END]
 5E8:  [21 88 05] suffered[BREAK] damage of [23 90 05 02 00].[END]
 5E8-E: (03 EA)[21 88 05][BREAK]perd [23 90 05 02 00]·PV·![END]
 5E9: [BREAK]       YOU WIN![BREAK][END]
