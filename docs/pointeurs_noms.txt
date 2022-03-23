@@ -1,0 +1,48 @@
+OBJETS
+start    0x01810
+nb        256 (0x100)
+entry    8
+offset    0
+/!\ inclut 14 fois l’objet Debug, mais pas les hints/flightplan/etc.
+
+LIEUX
+start    0x01C10
+nb        56 (0x38)
+entry    8
+offset    0
+/!\ il faut pointer vers les hints/flightplan/etc.
+
+PSI
+start    0x01E10
+nb        64 (0x40)
+entry    8
+offset    0
+
+ALTÉRATIONS D’ÉTAT
+start    0x3C62E
+nb        8
+entry    2
+offset    0
+
+ENNEMIS
+start    2C010
+nb        122
+entry    32 (0x20)
+offset    24
+
+=====
+Les pointeurs à la fin des LOCATIONS pointent vers :
+
+MyHome        Podunk
+Merrysville    Reindeer
+Spookane    Snowman
+Youngtown    Ellay
+
+Reindeer    Spookane
+Snowman        Union
+Union        Union
+Spookane    Snowman
+Reindeer    Snowman
+Reindeer    Spookane
+
+Plan A        Plan B

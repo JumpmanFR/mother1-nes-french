@@ -1,0 +1,65 @@
+GESTION DE L’ESPACE DANS LA ROM
+
+=====
+Noms longs d’ennemis / dépassements noms d’objets + PSI + autre
+⇒ dans PRG "Blank", 1680 octets (0x690) libres
+
+======
+Routines de code
+2714 octets (0xA9A) ⇒ dans PRG "Unused", 3932 octets (0xF5C) libres
+
+======
+Données binaires (fenêtres, graphiques) relocalisées
+19319 octets ⇒ dans CHR
+
+m1_window_cant_equip_item.bin
+m1_window_cant_use_item.bin
+m1_window_cant_use_other_item.bin
+m1_window_char_stats.bin
+m1_window_command_menu.bin
+m1_window_file_menu_1.bin
+m1_window_file_menu_2.bin
+m1_window_file_menu_3.bin
+m1_window_file_menu_4.bin
+m1_window_file_menu_5.bin
+m1_window_item_action_menu.bin
+m1_window_money.bin
+m1_window_name_not_allowed.bin
+m1_window_naming.bin
+m1_window_player_name.bin
+m1_window_shop_menu.bin
+m1_window_status_menu.bin
+m1_window_who.bin
+m1_window_yes_no.bin
+m1_window_yes_no_small.bin
+m1_window_yes_no_small2.bin
+m1_window_yes_no2.bin
+alt_tiles_table.bin
+m1_data_ending_script.bin
+m1_data_object_table_1.bin
+m1_gfx_store_2.bin
+m1_translation_credits_window.bin
+m1_window_battle_item.bin
+
+======
+Texte supplémentaire dans le script
+9416 octets (0x24C8) ⇒ dans CHR
+
+======
+Éléments misc_text supplémentaires
+6600 octets (0x19C8) ⇒ dans CHR ??? mais ce serait mieux dans PRG
+org $8FFE900; fill $3D //  Vowels for elision
+org $8FE7CE0; fill $0F //  Displayed when taking an item out of storage from your sister
+org $8FFE9A0; fill $06 //  Elision strings (de / d')
+org $8FFE9A8; fill $10 //  Grammatical gender
+org $8FE7C00; fill $12 //  NAMING SCREEN STUFF
+org $8FE7C30; fill $14 //  NAMING SCREEN STUFF
+org $8FE7C60; fill $10 //  NAMING SCREEN STUFF
+org $8FE7C90; fill $16 //  NAMING SCREEN STUFF
+org $8FE7CC0; fill $14 //  NAMING SCREEN STUFF
+org $8FE79E0; fill $07 //  TENTH ROW
+org $8FED000; fill $1000 // Insert M1 alt window data
+org $8FFE000; fill $7F // Insert M1 item articles
+org $8FFE080; fill $80 // Insert M1 enemy articles
+org $8FFE100; fill $400 // Insert M1 item classes
+org $8FFE500; fill $400 // Insert M1 enemy classes
