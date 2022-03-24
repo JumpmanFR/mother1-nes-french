@@ -1,0 +1,74 @@
+Misc menu translations:
+– text in file selection screen
+– text in main action menu
+– text for item action menu
+– window titles for teleport, storage, character selection
+– text in status window
+– text for setup menu
+– text in status/battle bar
+– text in naming screens
+– text in battle action menu
+– text for "can’t use/equip" during battle
+– text for default character names
+– text for unallowed names
+– text for oui/non, si/no
+– intro text
+
+New text insertions:
+– dynamical small words (articles, gender, elision strings, elision vowels)
+
+Text windows:
+– main dialog box (window + text position + two sizes handling)
+– battle text box (window + text position + clearing)
+– main action menu (window + cursor)
+– items, storage, psi and teleport locations (window + text position + cursor)
+– item actions (window + cursor)
+– items and psi in battle (window + text position + cursor)
+– enemy list in battle (window + text position + cursor)
+– status: psi and equipment panels (text position)
+– file selection screen (window + text position + cursor)
+– “can’t use/equip” messages during battle (window)
+
+Custom control codes:
+– item articles
+– elision
+– gender
+– number
+– articles for fighters (fight)
+– articles for items: standard case, stolen item, won item (fight)
+
+Memory issues:
+– potential crash when long enemy names
+– crash when text too long
+
+Challenging/dynamical graphical translations:
+– store categories
+
+Data/layout:
+– name keyboard
+– player name keyboard
+
+Translation bonus:
+– translation hidden credits menu?
+– disclaimer screen?
+
+Graphical translations:
+– producted/presented by
+– map
+– title screen copyrights
+– end credits
+
+Dynamical positionning:
+– dollar sign position
+– cursor position for questions in dialogues, depending on yes/no, pp/soften, save/don’t, continue/stop
+– remove extra line breaks from Japanese?
+– space before enemy letter
+
+Other dynamical stuff:
+– si/non in dialogues
+– verb for ingesting capsules
+
+Stuff from Tomato’s project:
+– autowrap in battle?
+– uncensoring?
+– easy ring?

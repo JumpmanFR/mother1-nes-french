@@ -3807,69 +3807,69 @@
 76F: 
 76F-E: 
 770: 
-770-E: 
-771: 
-771-E: 
-772: 
-772-E: 
-773: 
-773-E: 
-774: 
-774-E: 
-775: 
-775-E: 
-776: 
-776-E: 
-777: 
-777-E: 
-778: 
-778-E: 
-779: 
-779-E: 
-77A: 
-77A-E: 
-77B: 
-77B-E: 
-77C: 
-77C-E: 
-77D: 
-77D-E: 
-77E: 
-77E-E: 
-77F: 
-77F-E: 
-780: 
-780-E: 
-781: 
-781-E: 
-782: 
-782-E: 
-783: 
-783-E: 
-784: 
-784-E: 
-785: 
-785-E: 
-786: 
-786-E: 
-787: 
-787-E: 
-788: 
-788-E: 
-789: 
-789-E: 
-78A: 
-78A-E: 
-78B: 
-78B-E: 
-78C: 
-78C-E: 
-78D: 
-78D-E: 
-78E: 
-78E-E: 
-78F: 
-78F-E: 
+770-E: [END]
+771:    
+771-E: d[03 5E][END]
+772:   
+772-E: vaincu[END]
+773:   
+773-E: Un mauvais rêve dont tu ne[BREAK]te réveilleras jamais...[END]
+774:   
+774-E: P A R S[END]
+775:   
+775-E: Ça f'ra [03 1E]$ pour toi.[END]
+776:   
+776-E: Donc t'inquiète pas, tu[BREAK]peux passer la nuit ici si[BREAK]tu veux.[END]
+777:   
+777-E: Reviens passer la nuit ici[BREAK]une prochaine fois, OK ?[END]
+778:   
+778-E: Oh ? Tu veux pas rester ?[END]
+779:   
+779-E: Hum, je ne peux pas te[BREAK]laisser entrer sans billet.[END]
+77A:   
+77A-E: Amuse-toi bien[4F]![END]
+77B:   
+77B-E: Je suis très heureux de ta[BREAK]venue[4F]![END]
+77C:   
+77C-E: Je sais exactement ce que[BREAK]tu veux.[END]
+77D:   
+77D-E: Tu vas chanter, toi aussi ?[END]
+77E:   
+77E-E: Ça roule ! Allez, mets le[BREAK]feu à la scène ![END]
+77F:   
+77F-E: Bah alors, t'es timide ?[END]
+780:   
+780-E: L'équipe d[03 5E][END]
+781:   
+781-E: de l'équipe d[03 5E][END]
+782:   
+782-E: vaincue[END]
+783:   
+783-E: Un mauvais rêve dont vous[BREAK]ne vous réveillerez[BREAK]jamais...[END]
+784:   
+784-E: P A R T E Z[END]
+785:   
+785-E: Ça f'ra [03 1E]$ pour ton[BREAK]groupe.[END]
+786:   
+786-E: Donc vous inquiétez pas,[BREAK]vous pouvez passer la nuit[BREAK]ici si vous voulez.[END]
+787:   
+787-E: Revenez passer la nuit ici[BREAK]une prochaine fois, OK ?[END]
+788:   
+788-E: Oh ? Vous voulez pas[BREAK]rester ?[END]
+789:   
+789-E: Hum, je ne peux pas vous[BREAK]laisser entrer sans billet.[END]
+78A:   
+78A-E: Amusez-vous bien[4F]![END]
+78B:   
+78B-E: Je suis très heureux de[BREAK]votre venue[4F]![END]
+78C:   
+78C-E: Je sais exactement ce que[BREAK]vous voulez.[END]
+78D:   
+78D-E: Vous allez chanter, vous[BREAK]aussi ?[END]
+78E:   
+78E-E: Ça roule ! Allez, mettez le[BREAK]feu à la scène ![END]
+78F:   
+78F-E: Bah alors, vous êtes[BREAK]timides les mômes ?[END]
 790: 
 790-E: 
 791: 
