@@ -42,6 +42,7 @@ void          WriteInRom(int character);
 void          WriteReport();
 int           PostProcessWriteAreas();
 void          InsertMainStuff(void);
+void          InsertNames();
 void          InsertSpecialText(void);
 void          InsertAltWindowData(void);
 void          InsertItemArticles(void);
@@ -50,13 +51,6 @@ void          InsertItemClasses(void);
 void          InsertEnemyClasses(void);
 void          InsertEnemyLongNames(void);
 
-void          LoadM2Table(void);
-void          InsertM2WindowText(void);
-void          InsertM2MiscText(void);
-void          InsertM2Items(void);
-void          InsertM2Enemies(void);
-void          InsertM2PSI1(void);
-void          InsertM2Locations(void);
 void          ConvComplexMenuString(char[], int&);
 
 //void          UpdatePointers(int, int, FILE*, char*);
@@ -90,12 +84,12 @@ int main(int argc, char *argv[])
 	LoadTable();
 	InsertMainStuff();
 	InsertSpecialText();
+	InsertNames();
 	//InsertAltWindowData();
 	//InsertItemArticles();
     //InsertEnemyArticles();
     //InsertItemClasses();
     //InsertEnemyClasses();
-    //InsertEnemyLongNames();
 
 	fclose(romStream);
 
@@ -217,7 +211,7 @@ void WriteReport() {
 			if (!writtenAreas[i].isAllowed) {
 				warningStr = " FORBIDDEN";
 			}
-			fprintf(reportStream, "org $8%06X; fill $%02X // %s%s\n", writtenAreas[i].address, writtenAreas[i].size, warningStr, writtenAreas[i].comment); 
+			fprintf(reportStream, "org $%05X; fill $%02X // %s%s\n", writtenAreas[i].address, writtenAreas[i].size, warningStr, writtenAreas[i].comment); 
 		}
 	}
 	fclose(reportStream);
@@ -547,10 +541,10 @@ void InsertMainStuff(void)
 
 	loc = baseloc;
 
-	fin = fopen("script_converted.txt", "r");
+	fin = fopen("script.txt", "r");
 	if (fin == NULL)
 	{
-		printf("Can't open script_converted.txt\n");
+		printf("Can't open script.txt\n");
 		return;
 	}
 
@@ -666,6 +660,105 @@ void InsertSpecialText(void)
 
 	fclose(fin);
 }
+
+
+//=================================================================================================
+
+void InsertNames(void)
+{
+	FILE* fin;
+	char  str[5000];
+	char  str2[5000];
+	int   lineNum = 0;
+	int   baseloc = 0x10;
+    int   loc;
+	int   ptrLoc;
+	int   pntOffset = 0;
+	int   ptrStep = 1;
+	int   ptrRepeat = 0;
+	
+	int   ptrBaseValue = 0x8000;
+	int   ptrValue;
+	
+	int   len;
+	int   i;
+
+	//char* toto = "1810\n";
+	//printf("%s: %d\n", toto, hstrtoi(toto));
+	//exit(0);
+	
+	loc = baseloc;
+	ptrLoc = baseloc;
+	
+	fin = fopen("names.txt", "r");
+	if (fin == NULL)
+	{
+		printf("Can't open names.txt\n");
+		return;
+	}
+
+	fgets(str, 5000, fin);
+    while(!feof(fin))
+    {
+
+  		if (strncmp(str, "//", 2) == 0) {
+		} else if (str[0] == '!') {
+			str[strcspn(str,"\r\n")] = '\0';
+			if (strncmp(str, "!START=", 7) == 0) {
+				printf("START %s\n", &str[7]);
+				ptrLoc = hstrtoi(&str[7]);
+				printf("%d\n", ptrLoc);
+			} else if (strncmp(str, "!OFFST=", 7) == 0) {
+				pntOffset = hstrtoi(&str[7]);
+				printf("OFFST at %d\n", ptrLoc);
+			} else if (strncmp(str, "!ENTRY=", 7) == 0) {
+				ptrStep = hstrtoi(&str[7]);
+				printf("STOP as %d\n", ptrStep);
+			} else if (strncmp(str, "!REPET=", 7) == 0) {
+				ptrRepeat = hstrtoi(&str[7]);
+			}
+		} else {
+
+			ptrValue = loc - baseloc + ptrBaseValue;
+			
+			do {
+				StartWritingInRom(ptrLoc + pntOffset, WRITE_FLAG_NORMAL, "Insert M1 name pointer");
+				WriteInRom(ptrValue & 0x00FF);
+				WriteInRom(ptrValue >> 8);
+				ptrRepeat--;
+				ptrLoc += ptrStep;
+			} while (ptrRepeat > 0);
+
+			PrepString(str, str2, 0);
+			//printf("%d", str2[0]);
+			
+			ConvComplexString(str2, len);
+			//printf(" length: %n\n", len);
+			str2[len] = 0x00;
+			len++;
+
+            StartWritingInRom(loc, WRITE_FLAG_NORMAL, "Insert M1 names");
+            for (i = 0; i < len; i++)
+            {
+			   //printf("%02X ", str2[i]);
+               WriteInRom(str2[i]);
+			}
+			//printf("\n");
+
+		    loc += len;
+			lineNum++;
+		}
+
+
+	    fgets(str, 5000, fin);
+
+	}
+
+    printf(" Names:\t\tINSERTED\r\n");
+
+	fclose(fin);
+}
+
 
 void InsertAltWindowData(void)
 {
@@ -862,346 +955,6 @@ void InsertEnemyClasses(void)
 	return;
 }
 
-void InsertEnemyLongNames(void)
-{
-	FILE* fin;
-	char  line[1000];
-	char* str;
-	char  str2[5000];
-	int   len;
-	int   lineNum = 0;
-	int   startLoc = 0xFDF300;
-	int   i;
-
-	fin = fopen("m1_enemy_long_names_converted.txt", "r");
-	if (!fin)
-	{
-		printf("Can't open m1_enemy_long_names_converted.txt, doh\r\n");
-		return;
-	}
-
-	fgets(line, 1000, fin);
-    while(!feof(fin))
-    {
-        if (line[0] != '/' && line[0] != '\n'&& line[0] != '\r') {
-            str = &line[14];
-            StartWritingInRom(startLoc + lineNum * 0x19, WRITE_FLAG_PREFILL, "Insert M1 long enemy names");
-            for (i = 0; i < 0x19; i++)
-               WriteInRom(0);
-			if (strlen(str) > 0) {
-				PrepString(str,str2,0);
-				ConvComplexString(str2,len);
-				StartWritingInRom(startLoc + lineNum * 0x19, WRITE_FLAG_AFTER_PREFILL, "Insert M1 long enemy names");
-				for (i = 0; i < len; i++)
-				   WriteInRom(str2[i]);
-			}
-
-            lineNum++;
-        }
-	    fgets(line, 1000, fin);
-	}
-
-    printf(" Enemy long names:\tINSERTED\r\n");
-
-	return;
-}
-
-
-//=================================================================================================
-//=================================================================================================
-//=================================================================================================
-
-void LoadM2Table(void)
-{
-   FILE* fin;
-   char  tempStr[500] = "";
-   int i;
-
-   tableLen = 0;
-
-   fin = fopen("m2_jpn_table.txt", "r");
-   if (fin == NULL)
-   {
-	   printf("Can't open m2_jpn_table.txt!\n");
-	   return;
-   }
-
-   i = fgetc(fin);
-   i = fgetc(fin);
-   i = fgetc(fin);
-
-
-   fscanf(fin, "%s", tempStr);
-   table[tableLen].hexVal = hstrtoi(tempStr);
-   fscanf(fin, "%s", table[tableLen].str);
-   while (!feof(fin))
-   {
-	   tableLen++;
-
-   	   fscanf(fin, "%s", tempStr);
-   	   table[tableLen].hexVal = hstrtoi(tempStr);
-       fscanf(fin, "%s", table[tableLen].str);
-   }
-
-   table[0x00].str[1] = '\0';
-   table[0x4D].str[0] = ' ';
-
-   fclose(fin);
-}
-
-//=================================================================================================
-
-void InsertM2WindowText(void)
-{
-	FILE* fin;
-	char  str[5000];
-	char  str2[5000];
-	char  line[5000];
-	int   loc;
-	int   temp;
-	int   len;
-	int   i;
-
-
-    fin = fopen("m2_window_text.txt", "r");
-    if (fin == NULL)
-    {
-		printf("Can't open m1_window_text.txt");
-		return;
-	}
-
-    //fscanf(fin, "%x", &loc);
-//    fscanf(fin, "%s", str);
-    //fscanf(fin, "%s", line);
-    fgets(line, 5000, fin);
-    while(!feof(fin))
-    {
-		if (line[0] != '/' && line[0] != '\r' && line[0] != 10)
-		{
-		   sscanf(line, "%x %[^\t\n]", &loc, str);
-           strcat(str, " ");
-
-           //printf("%2d %X - %s\n", line[0], loc, str);
-     	   PrepString(str, str2, 0);
-		   ConvComplexMenuString(str2, len);
-
-           StartWritingInRom(loc, WRITE_FLAG_NORMAL, "Insert M2 window text");
-           for (i = 0; i < len; i++)
-	          WriteInRom(str2[i]);
-	    }
-
-	    //fscanf(fin, "%s", line);
-	    fgets(line, 5000, fin);
-
-    	//fscanf(fin, "%x", &loc);
-//    	fscanf(fin, "%s", str);
-	}
-
-    printf(" Misc. text:\tINSERTED\r\n");
-
-	fclose(fin);
-}
-
-//=================================================================================================
-
-void InsertM2Items(void)
-{
-	FILE* fin;
-	char  str[5000];
-	char  str2[5000];
-	int   lineNum = 0;
-    int   loc = 0xB30000;
-	int   ptrLoc;
-	int   temp;
-	int   len;
-	int   i;
-
-	fin = fopen("m2_items.txt", "r");
-	if (fin == NULL)
-	{
-		printf("Can't open m2_items.txt\n");
-		return;
-	}
-
-	fgets(str, 5000, fin);
-	while(strstr(str, "-E: ") == NULL)
-	{
-	   fgets(str, 5000, fin);
-	}
-    while(!feof(fin))
-    {
-  		PrepString(str, str2, 7);
-
-  		if (str2[0] != '\n')
-  		{
-			//printf("%d", str2[0]);
-			//printf(str2);
-//                       printf("%X %s\n", loc, str);
-			ptrLoc = 0xb1af94 + lineNum * 4;
-			StartWritingInRom(ptrLoc, WRITE_FLAG_NORMAL, "Insert M2 items pointers");
-
-			temp = (loc - 0xb1a694);
-	        WriteInRom(temp & 0x000000FF);
-            WriteInRom((temp & 0x0000FF00) >> 8);
-	        WriteInRom((temp & 0x00FF0000) >> 16);
-            WriteInRom(temp >> 24);
-
-			ConvComplexString(str2, len);
-            str2[len++] = 0x00;
-			str2[len++] = 0xFF;
-
-            StartWritingInRom(loc, WRITE_FLAG_NORMAL, "Insert M2 items");
-            for (i = 0; i < len; i++)
-            {
-			   //printf("%02X ", str2[i]);
-               WriteInRom(str2[i]);
-			}
-			//printf("\n");
-
-		    loc += len;
-		}
-
-
-        lineNum++;
-	    fgets(str, 5000, fin);
-	    while(strstr(str, "-E: ") == NULL && !feof(fin))
-	    {
-			fgets(str, 5000, fin);
-    	}
-
-	}
-
-    printf(" Item names:\tINSERTED\r\n");
-
-	fclose(fin);
-}
-
-//=================================================================================================
-
-void InsertM2Enemies(void)
-{
-	FILE* fin;
-	char  str[5000];
-	char  str2[5000];
-	int   lineNum = 0;
-    int   loc = 0xB31000;
-	int   ptrLoc;
-	int   temp;
-	int   len;
-	int   i;
-
-	fin = fopen("m2_enemies.txt", "r");
-	if (fin == NULL)
-	{
-		printf("Can't open m2_enemies.txt\n");
-		return;
-	}
-
-	fgets(str, 5000, fin);
-	while(strstr(str, "-E: ") == NULL)
-	{
-	   fgets(str, 5000, fin);
-	}
-    while(!feof(fin))
-    {
-  		PrepString(str, str2, 7);
-
-  		if (str2[0] != '\n')
-  		{
-			//printf("%d", str2[0]);
-//			printf(str2);
-//                       printf("%X %s\n", loc, str);
-			ptrLoc = 0xb1a2f0 + lineNum * 4;
-			StartWritingInRom(ptrLoc, WRITE_FLAG_NORMAL, "Insert M2 enemies pointers");
-
-			temp = (loc - 0xb19ad0);
-	        WriteInRom(temp & 0x000000FF);
-            WriteInRom((temp & 0x0000FF00) >> 8);
-	        WriteInRom((temp & 0x00FF0000) >> 16);
-            WriteInRom(temp >> 24);
-
-			ConvComplexString(str2, len);
-            str2[len++] = 0x00;
-			str2[len++] = 0xFF;
-
-            StartWritingInRom(loc, WRITE_FLAG_NORMAL, "Insert M2 enemies");
-            for (i = 0; i < len; i++)
-            {
-			   //printf("%02X ", str2[i]);
-               WriteInRom(str2[i]);
-			}
-			//printf("\n");
-
-		    loc += len;
-		}
-
-
-        lineNum++;
-	    fgets(str, 5000, fin);
-	    while(strstr(str, "-E: ") == NULL && !feof(fin))
-	    {
-			fgets(str, 5000, fin);
-    	}
-
-	}
-
-    printf(" Enemy names:\tINSERTED\r\n");
-
-	fclose(fin);
-}
-
-
-//=================================================================================================
-
-void InsertM2MiscText(void)
-{
-	FILE* fin;
-	char  str[5000];
-	char  str2[5000];
-	char  line[5000];
-	int   loc;
-	int   temp;
-	int   len;
-	int   i;
-
-
-    fin = fopen("m2_misc_text.txt", "r");
-    if (fin == NULL)
-    {
-		printf("Can't open m2_misc_text.txt");
-		return;
-	}
-
-    fgets(line, 5000, fin);
-    while(!feof(fin))
-    {
-		if (line[0] != '/' && line[0] != '\r' && line[0] != 10)
-		{
-		   sscanf(line, "%x %[^\t\n]", &loc, str);
-           strcat(str, " ");
-
-           //printf("%2d %X - %s\n", line[0], loc, str);
-     	   PrepString(str, str2, 0);
-		   ConvComplexString(str2, len);
-
-           StartWritingInRom(loc, WRITE_FLAG_NORMAL, "Insert M2 misc text");
-           for (i = 0; i < len; i++)
-	          WriteInRom(str2[i]);
-	    }
-
-	    //fscanf(fin, "%s", line);
-	    fgets(line, 5000, fin);
-
-    	//fscanf(fin, "%x", &loc);
-//    	fscanf(fin, "%s", str);
-	}
-
-    printf(" Misc. text:\tINSERTED\r\n");
-
-	fclose(fin);
-}
-
-
 
 void ConvComplexMenuString(char str[5000], int& newLen)
 {
@@ -1244,132 +997,3 @@ void ConvComplexMenuString(char str[5000], int& newLen)
 	   str[i] = newStr[i];
 }
 
-//=================================================================================================
-
-void InsertM2PSI1(void)
-{
-	FILE* fin;
-	char  str[5000];
-	char  str2[5000];
-	int   lineNum = 0;
-    int   loc = 0xb1b916;
-	int   ptrLoc;
-	int   temp;
-	int   len;
-	int   i;
-
-	fin = fopen("m2_psi.txt", "r");
-	if (fin == NULL)
-	{
-		printf("Can't open m2_psi.txt\n");
-		return;
-	}
-
-	fgets(str, 5000, fin);
-	while(strstr(str, "-E: ") == NULL)
-	{
-	   fgets(str, 5000, fin);
-	}
-    while(!feof(fin))
-    {
-  		PrepString(str, str2, 7);
-
-  		if (str2[0] != '\n')
-  		{
-			ptrLoc = 0xb1b916 + lineNum * 0xD;
-			//printf("%02X - %6X - %s", lineNum, ptrLoc, str2);
-
-			ConvComplexString(str2, len);
-            str2[len++] = 0x00;
-			str2[len++] = 0xFF;
-
-			StartWritingInRom(ptrLoc, WRITE_FLAG_NORMAL, "Insert M2 PSI pointers");
-            for (i = 0; i < len; i++)
-            {
-			   //printf("%02X ", str2[i]);
-               WriteInRom(str2[i]);
-			}
-			//printf("\n");
-
-		    loc += len;
-		}
-
-
-        lineNum++;
-	    fgets(str, 5000, fin);
-	    while(strstr(str, "-E: ") == NULL && !feof(fin))
-	    {
-			fgets(str, 5000, fin);
-    	}
-
-	}
-
-    printf(" PSI, etc. #1:\tINSERTED\r\n");
-
-	fclose(fin);
-}
-
-//=================================================================================================
-
-void InsertM2Locations(void)
-{
-	FILE* fin;
-	char  str[5000];
-	char  str2[5000];
-	int   lineNum = 0;
-    int   loc = 0xb2ad24;
-	int   ptrLoc;
-	int   temp;
-	int   len;
-	int   i;
-
-	fin = fopen("m2_locations.txt", "r");
-	if (fin == NULL)
-	{
-		printf("Can't open m2_locations.txt\n");
-		return;
-	}
-
-	fgets(str, 5000, fin);
-	while(strstr(str, "-E: ") == NULL)
-	{
-	   fgets(str, 5000, fin);
-	}
-    while(!feof(fin))
-    {
-  		PrepString(str, str2, 7);
-
-  		if (str2[0] != '\n')
-  		{
-			ptrLoc = 0xb2ad24 + lineNum * 0x14;
-			//printf("%02X - %6X - %s", lineNum, ptrLoc, str2);
-
-			ConvComplexString(str2, len);
-            str2[len++] = 0x00;
-			str2[len++] = 0xFF;
-
-			StartWritingInRom(ptrLoc, WRITE_FLAG_NORMAL, "Insert M2 locations");
-            for (i = 0; i < len; i++)
-            {
-			   //printf("%02X ", str2[i]);
-               WriteInRom(str2[i]);
-			}
-			//printf("\n");
-
-		    loc += len;
-		}
-
-
-        lineNum++;
-	    fgets(str, 5000, fin);
-	    while(strstr(str, "-E: ") == NULL && !feof(fin))
-	    {
-			fgets(str, 5000, fin);
-    	}
-
-	}
-
-    printf(" Loc. names:\tINSERTED\r\n");
-
-	fclose(fin);
-}

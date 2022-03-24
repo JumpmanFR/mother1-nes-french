@@ -1,0 +1,583 @@
+//============
+//ITEMS
+!START=1810
+!OFFST=0
+!ENTRY=8
+//00. 
+
+//01. Big Bag
+GrandSac
+//02. Phone Card
+CarteTéléph
+//03. BreadCrumbs
+Miettes
+//04. Repel Ring
+BagueRépuls
+!REPET=6
+//05. Knife
+Couteau
+//06. Surv. Knife
+CouteauSurv
+//07. Basic Sword
+ÉpéeSimple
+//08. Katana
+Katana
+//09. Stun Gun
+Taser
+//0A. Toy Air Gun
+PistoBilles
+//0B. Cracked Bat
+BatteFêlée
+//0C. Teeball Bat
+BatteOrdinr
+//0D. Sandlot Bat
+BatteRobust
+//0E. HallFameBat
+BatteSuprême
+//0F. Frypan
+Poêle
+//10. DX Frypan
+PoêleQualité
+//11. Best Frypan
+PoêleExcept
+//12. Slingshot
+LancePierre
+//13. Boomerang
+Boomerang
+//14. Bug Spray
+Insecticide
+//15. Super Spray
+SuperInsect
+//16. Flea Bomb
+BombePuces
+//17. Love Words
+MotsAmour
+//18. Curse Words
+MotsAmers
+//19. Slime Gen.
+AprlGélatne
+//1A. Flashdark
+OmbrePoche
+//1B. Stone Spray
+SprayPierre
+//1C. Stinger
+DardPoison
+//1D. Flamethrowr
+LanceFlammes
+//1E. Bomb
+Bombe
+//1F. Super Bomb
+SuperBombe
+//20. Laser Beam
+RayonLaser
+//21. Death Beam
+RayonMortel
+!REPET=2
+//22. Rope
+Corde
+!REPET=5
+//23. Peace Coin
+PiècePaix
+//24. ProtectCoin
+PièceProtect
+//25. Magic Coin
+PièceMagiq
+//26. Fairy Brace
+BraceletFée
+//27. Angel Brace
+BraceletAnge
+//28. GoddessBrac
+BrcltDéesse
+//29. RainPendant
+PendntfPluie
+//2A. FlamePendnt
+PendentifFeu
+//2B. EarthPendnt
+PendntfTerre
+//2C. Sea Pendant
+PendentifMer
+!REPET=6
+//2D. OrangeJuice
+JusOrange
+//2E. FrenchFries
+Frites
+//2F. Magic Herb
+HerbeMagique
+//30. Hamburger
+Hamburger
+//31. SportsDrink
+Énergisant
+//32. Medicine
+Remède
+//33. AsthmaSpray
+Inhalateur
+//34. Antidote
+Antidote
+//35. Mouthwash
+BainBouche
+//36. Berry Tofu
+TofuFraise
+!REPET=2
+//37. Bread
+Pain
+//38. Angel Seed
+GraineAnge
+//39. PSI Stone
+PierrePSI
+!REPET=2
+//3A. MagicRibbon
+RubanMagique
+//3B. Magic Candy
+BonbonMagiq
+!REPET=2
+//3C. SpeedCapsul
+CapslVitesse
+//3D. Wis.Capsule
+CapslSagesse
+//3E. Str.Capsule
+CapslVigueur
+//3F. ForceCapsul
+CapsuleForce
+//40. FightCapsul
+CapsulFougue
+!REPET=3
+//41. BasementKey
+CléCave
+//42. Zoo Key
+CléZoo
+//43. Haunted Key
+CléHantée
+//44. GGF's Diary
+JournalPapy
+//45. Pass
+Passe
+//46. Show Ticket
+BilletSpect
+!REPET=5
+//47. Baby Canary
+BébéCanari
+!REPET=2
+//48. BottlRocket
+FuséeCrayon
+//49. Hat
+Chapeau
+//4A. Dentures
+Dentier
+//4B. Ticket Stub
+TalonTicket
+//4C. IC Chip
+PuceÉlectro
+//4D. Ocarina
+Ocarina
+!REPET=2
+//4E. Frank.Badge
+BdgeFranklin
+//4F. Friend Ring
+BagueAmitié
+!REPET=2
+//50. Onyx Hook
+CrochetOnyx
+//51. Ult. Weapon
+ArmeUltime
+//52. Ruler
+Règle
+//53. ATM Card
+CarteBanque
+//54. Red Weed
+HerbeRouge
+//55. Megaphone
+Mégaphone
+//56. Map
+Carte
+!REPET=E
+//57. Debug
+Debug
+//============
+//MENU ENTRIES
+!START=1CF0
+//Course A
+Trajet A
+//Course B
+Trajet B
+//Course C
+Trajet C
+//Hint 1
+Indice 1
+//Hint 2
+Indice 2
+//Hint 3
+Indice 3
+!REPEAT=5
+//RealRocket
+VraieFusée
+//TimeMachine
+MachineTemp
+//
+
+//============
+//LOCATIONS
+!START=1C10
+//MyHome
+Maison
+//Podunk
+Podunk
+//Merrysville
+Merrysville
+//Reindeer
+Reindeer
+//Spookane
+Atrocity
+//Snowman
+Snowman
+//Youngtown
+Youngtown
+//Ellay
+Ellay
+!START=1CA8
+!REPET=3
+//Union
+Union
+//TODO lieux répétés un peu plus loin de façon random...
+//============
+//PSI
+!START=1E10
+//
+
+//Telepathy
+Télépathie
+//Teleport
+Téléport
+!REPET=6
+//LifeUp <alpha>
+Soin·[ALPHA]
+//LifeUp <beta>
+Soin·[BETA]
+//LifeUp <gamma>
+Soin·[GAMMA]
+//LifeUp <pi>
+Soin·[PIZ]
+//LifeUp <omega>
+Soin·[OMEGA]
+!REPET=4
+//Healing <alpha>
+Guérison·[ALPHA]
+//Healing <beta>
+Guérison·[BETA]
+//Healing <gamma>
+Guérison·[GAMMA]
+//Healing <pi>
+Guérison·[PIZ]
+//SuprHealing
+Réanimation
+//PSIShield <alpha>
+Bouclier·[ALPHA]
+//PSIShield <beta>
+Bouclier·[BETA]
+//PowerShield
+Réflecteur
+//BrainShock
+Choc mental
+//BrainCyclon
+Mégachoc
+//Hypnosis
+Hypnose
+//Paralysis
+Paralysie
+//Darkness
+Ténèbres
+//PSI-Magnet
+Aimant à PSI
+//Shield-Off
+AntiBouclier
+//PSI-Block
+Blocage PSI
+//OffenseUp
+Attaque·+
+//DefenseUp <alpha>
+Défense·+·[ALPHA]
+//DefenseUp <beta>
+Défense·+·[BETA]
+//QuickUp
+Hâte
+//Def.Down <alpha>
+Défense·-·[ALPHA]
+//Def.Down <beta>
+Défense·-·[BETA]
+//4th-D Slip
+SautDimensl
+//PK Freeze <alpha>
+PK Glace·[ALPHA]
+//PK Freeze <beta>
+PK Glace·[BETA]
+//PK Freeze <gamma>
+PK Glace·[GAMMA]
+//PK Freeze <omega>
+PK Glace·[OMEGA]
+//PK Fire <alpha>
+PK Feu·[ALPHA]
+//PK Fire <beta>
+PK Feu·[BETA]
+//PK Fire <gamma>
+PK Feu·[GAMMA]
+//PK Fire <omega>
+PK Feu·[OMEGA]
+//PK Beam <alpha>
+PK Rayon·[ALPHA]
+//PK Beam <beta>
+PK Rayon·[BETA]
+//PK Beam <gamma>
+PK Rayon·[GAMMA]
+//PK Beam <omega>
+PK Rayon·[OMEGA]
+//PK Thunder<alpha>
+PK Foudre·[ALPHA]
+//PK Thunder<beta>
+PK Foudre·[BETA]
+//PK Thunder<gamma>
+PK Foudre·[GAMMA]
+!REPET=9
+//Faintd
+Évanoui
+//// Stone
+//Pétrif.
+////Parlzd
+//Paral.
+////Asleep
+//Endormi
+////Confsd
+//Confus
+////Puzzld
+//Troublé
+////Poison
+//Empois.
+////  Cold
+//Enrhumé
+//TODO altérations d’état dans la bonne zone + le repeat
+//============
+//ENEMIES
+!START=2C010
+!OFFST=18
+!ENTRY=20
+//
+
+//BigWoodoh
+Gros Tronchou
+//Dragon
+Dragon
+//R7038
+R-7038
+//Elephant
+Éléphant
+//Bear
+Ours
+//Big Foot
+Bigfoot
+//Mad Truck
+Camion fou
+//Old Robot
+Vieux robot
+//Megaborg
+Méga-Borg
+//Gargoyle
+Gargouille
+//Gabilan
+Gabilan
+//Gorilla
+Gorille
+//Bison
+Bison
+//Tiger
+Tigre
+//Mad Car
+Voiture folle
+//Raeb Yddet
+Nounours
+//Magic Snail
+Magiscargot
+//Titanees
+Titanie
+//Giegue
+Giygas
+//Eagle
+Aigle
+//Wolf
+Loup
+//Seagull
+Mouette voleuse
+//Alligator
+Crocodile
+//EnergyRobot
+Robot atomique
+//The Fish
+Roi des profondeurs
+//Fugitive
+Fugitif
+//B.B.'s Boss
+Chef du BB Gang
+//Barbot
+Barbot
+//Nancy
+Jane
+//Starman
+Starman
+//Ullrich
+Ulrich
+//Cerebrum
+Cerebrum
+//Mook
+Mook
+//Armor
+Armure
+//Woodoh
+Tronchou
+//Wally
+Péquenaud
+//The Hippie
+Hippie
+//Bag Lady
+Ménagère
+//B.B. Gang
+Membre du gang
+//Dr.Distorto
+Dr·Distorto
+!REPET=2
+//Gang Zombie
+Zombie mafieux
+//PseudoZombi
+Pseudo-zombie
+//Crow
+Corbeau
+//Snake
+Serpent
+//Hyena
+Hyène
+//Cougar
+Lynx
+//Centipede
+Mille-pattes
+//Dust Ball
+Esprit poussiéreux
+//Fly
+Mouche
+//Spider
+Araignée
+//Scorpion
+Scorpion
+//Rope
+Corde
+//Fire Ball
+Boule de feu
+//Watcher
+Zieux
+//Groucho
+Zieux bonus
+//Ghost
+Fantôme
+//Lil Saucer
+P'tite soucoupe
+//Mr. Bat
+M.·Batou
+//Starman Jr.
+Starman Jr
+//Skunk
+Putois
+//Shroudley
+Zombie sanglant
+//Rat
+Rat
+//Bomber
+Explosœuf
+!REPET=2
+//Doll
+Poupée
+//Lamp
+Lampe
+!REPET=3
+//BionicCenti
+Mille-pattes bionique
+//BionicScorp
+Scorpion bionique
+!REPET=3
+//Red Snake
+Serpent rouge
+//Lone Wolf
+Loup solitaire
+//Polar Bear
+Ours polaire
+!REPET=5
+//Rattlesnake
+Serpent à sonnette
+//Tarantula
+Tarentule
+//Crocodile
+Crocodile tenace
+!REPET=2
+//Buffalo
+Buffle
+!REPET=2
+//Bionic Bat
+Batou bionique
+//Stray Dog
+Chien errant
+//Psycho Car
+Voiture démoniaque
+//PsychoTruck
+Camion démoniaque
+//ManiacTruck
+Camion mortel
+//Alarm Ghost
+Fantôme S.O.S.
+!REPET=2
+//Foureyes
+Katzieux
+//Dadseyes
+Papa Zieux
+//Momseyes
+Maman Zieux
+!REPET=3
+//Sky Yddet
+Nounours du ciel
+!REPET=2
+//Giga Borg
+Giga-Borg
+//Omega Borg
+Borg ultime
+//Scrapper
+Robot cassé
+//UltraBarbot
+Barbot tueur
+//OmegaSaucer
+Soucoupe oméga
+//Kelly
+Caroline
+//Star Miner
+Déflagratœuf
+//SuperEnergy
+Super robot atomique
+//Juana
+Suzie
+//BlueStarman
+Starman bleu
+//Rockoyle
+Satanie
+//Titanian
+Titanien
+//Oh-Mook
+Mook senior
+!REPET=2
+//Zombie
+Zombie
+//NastyZombie
+Zombie cruel
+//Silver Wolf
+Loup argenté
+//R7037
+R-7037
+//GrizzlyBear
+Grizzly
+//R7038XX
+R-7038XX
+//LastStarman
+Starman ultime
+//
+

@@ -1,0 +1,267 @@
+//
+//Big Bag
+//Phone Card
+//Crumbs
+//Repel Ring
+//ButterKnife
+//Surv.Knife
+//Sword
+//Katana
+//Stun Gun
+//Air Gun
+//Plastic Bat
+//Wooden Bat
+//AluminumBat
+//Hank's Bat
+//Frying Pan
+//NonstickPan
+//IronSkillet
+//Slingshot
+//Boomerang
+//Insecticide
+//Super Spray
+//Flea Bag
+//WordsO'Love
+//Swear Words
+//StkyMachine
+//Flashdark
+//StoneOrigin
+//PoisnNeedle
+//Fl Thrower
+//Bomb
+//Super Bomb
+//Laser Beam
+//Plasma Beam
+//Rope
+//Peace Coin
+//ProtectCoin
+//Magic Coin
+//Brass Ring
+//Silver Ring
+//Gold Ring
+//H2o Pendant
+//FirePendant
+//EarthPendnt
+//Sea Pendant
+//OrangeJuice
+//FrenchFries
+//Magic Herb
+//Hamburger
+//SportsDrink
+//LifeUpCream
+//AsthmaSpray
+//Antidote
+//Mouthwash
+//berry Tofu
+//Bread
+//Noble Seed
+//PSI Stone
+//MagicRibbon
+//Magic Candy
+//QuickCapsul
+//Wisdom Caps
+//PhysicalCap
+//ForceCapsul
+//FightCapsul
+//BasementKey
+//Zoo Key
+//Ghost Key
+//GGF's Diary
+//Pass
+//Ticket
+//CanaryChick
+//BottlRocket
+//Hat
+//Dentures
+//Ticket Stub
+//IC-chip
+//Ocarina
+//FranklnBdge
+//FrndshpRing
+//Onyx Hook
+//Last Weapon
+//Ruler
+//Cash Card
+//Red Weed
+//Bullhorn
+//Map
+//Debug
+//
+//FlightplanA
+//FlightplanB
+//FlightplanC
+//Hint 1
+//Hint 2
+//Hint 3
+//Real Rocket
+//TimeMachine
+//
+//MyHome
+//Podunk
+//Merrysville
+//Reindeer
+//Spookane
+//Snowman
+//Youngtown
+//Ellay
+//Union
+//
+//Telepathy
+//Teleport
+//LifeUp <alpha>
+//LifeUp <beta>
+//LifeUp <gamma>
+//LifeUp <pi>
+//LifeUp <omega>
+//Healing <alpha>
+//Healing <beta>
+//Healing <gamma>
+//Healing <pi>
+//SuprHealing
+//PSIShield <alpha>
+//PSIShield <beta>
+//PowerShield
+//BrainShock
+//BrainCyclon
+//Hypnosis
+//Paralysis
+//Darkness
+//PSI-Magnet
+//Shield-Off
+//PSI-Block
+//OffenseUp
+//DefenseUp <alpha>
+//DefenseUp <beta>
+//QuickUp
+//Def.Down <alpha>
+//Def.Down <beta>
+//4th-D Slip
+//PK Freeze <alpha>
+//PK Freeze <beta>
+//PK Freeze <gamma>
+//PK Freeze <omega>
+//PK Fire <alpha>
+//PK Fire <beta>
+//PK Fire <gamma>
+//PK Fire <omega>
+//PK Beam <alpha>
+//PK Beam <beta>
+//PK Beam <gamma>
+//PK Beam <omega>
+//PK Thunder<alpha>
+//PK Thunder<beta>
+//PK Thunder<gamma>
+//Faintd
+// Stone
+//Parlzd
+//Asleep
+//Confsd
+//Puzzld
+//Poison
+//  Cold
+//
+//BigWoodoh
+//Dragon
+//R7038
+//Elephant
+//Bear
+//Big Foot
+//Mad Truck
+//Old Robot
+//Megaborg
+//Gargoyle
+//Gabilan
+//Gorilla
+//Bison
+//Tiger
+//Mad Car
+//Raeb Yddet
+//Magic Snail
+//Titanees
+//Giegue
+//Eagle
+//Wolf
+//Seagull
+//Alligator
+//EnergyRobot
+//The Fish
+//Fugitive
+//B.B.'s Boss
+//Barbot
+//Nancy
+//Starman
+//Ullrich
+//Cerebrum
+//Mook
+//Armor
+//Woodoh
+//Wally
+//The Hippie
+//Bag Lady
+//B.B. Gang
+//Dr.Distorto
+//Gang Zombie
+//PseudoZombi
+//Crow
+//Snake
+//Hyena
+//Cougar
+//Centipede
+//Dust Ball
+//Fly
+//Spider
+//Scorpion
+//Rope
+//Fire Ball
+//Watcher
+//Groucho
+//Ghost
+//Lil Saucer
+//Mr. Bat
+//Starman Jr.
+//Skunk
+//Shroudley
+//Rat
+//Bomber
+//Doll
+//Lamp
+//BionicCenti
+//BionicScorp
+//Red Snake
+//Lone Wolf
+//Polar Bear
+//Rattlesnake
+//Tarantula
+//Crocodile
+//Buffalo
+//Bionic Bat
+//Stray Dog
+//Psycho Car
+//PsychoTruck
+//ManiacTruck
+//Alarm Ghost
+//Foureyes
+//Dadseyes
+//Momseyes
+//Sky Yddet
+//Giga Borg
+//Omega Borg
+//Scrapper
+//UltraBarbot
+//OmegaSaucer
+//Kelly
+//Star Miner
+//SuperEnergy
+//Juana
+//BlueStarman
+//Rockoyle
+//Titanian
+//Oh-Mook
+//Zombie
+//NastyZombie
+//Silver Wolf
+//R7037
+//GrizzlyBear
+//R7038XX
+//LastStarman
+//
