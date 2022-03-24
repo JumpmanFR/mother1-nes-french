@@ -13,9 +13,13 @@ CarteTéléph
 Miettes
 //04. Repel Ring
 BagueRépuls
-!REPET=6
 //05. Knife
 Couteau
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
 //06. Surv. Knife
 CouteauSurv
 //07. Basic Sword
@@ -72,12 +76,15 @@ SuperBombe
 RayonLaser
 //21. Death Beam
 RayonMortel
-!REPET=2
 //22. Rope
 Corde
-!REPET=5
+!REPEAT
 //23. Peace Coin
 PiècePaix
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
 //24. ProtectCoin
 PièceProtect
 //25. Magic Coin
@@ -96,9 +103,13 @@ PendentifFeu
 PendntfTerre
 //2C. Sea Pendant
 PendentifMer
-!REPET=6
 //2D. OrangeJuice
 JusOrange
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
 //2E. FrenchFries
 Frites
 //2F. Magic Herb
@@ -117,21 +128,21 @@ Antidote
 BainBouche
 //36. Berry Tofu
 TofuFraise
-!REPET=2
 //37. Bread
 Pain
+!REPEAT
 //38. Angel Seed
 GraineAnge
 //39. PSI Stone
 PierrePSI
-!REPET=2
 //3A. MagicRibbon
 RubanMagique
+!REPEAT
 //3B. Magic Candy
 BonbonMagiq
-!REPET=2
 //3C. SpeedCapsul
 CapslVitesse
+!REPEAT
 //3D. Wis.Capsule
 CapslSagesse
 //3E. Str.Capsule
@@ -140,9 +151,10 @@ CapslVigueur
 CapsuleForce
 //40. FightCapsul
 CapsulFougue
-!REPET=3
 //41. BasementKey
 CléCave
+!REPEAT
+!REPEAT
 //42. Zoo Key
 CléZoo
 //43. Haunted Key
@@ -153,12 +165,15 @@ JournalPapy
 Passe
 //46. Show Ticket
 BilletSpect
-!REPET=5
 //47. Baby Canary
 BébéCanari
-!REPET=2
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
 //48. BottlRocket
 FuséeCrayon
+!REPEAT
 //49. Hat
 Chapeau
 //4A. Dentures
@@ -169,14 +184,14 @@ TalonTicket
 PuceÉlectro
 //4D. Ocarina
 Ocarina
-!REPET=2
 //4E. Frank.Badge
 BdgeFranklin
+!REPEAT
 //4F. Friend Ring
 BagueAmitié
-!REPET=2
 //50. Onyx Hook
 CrochetOnyx
+!REPEAT
 //51. Ult. Weapon
 ArmeUltime
 //52. Ruler
@@ -189,9 +204,21 @@ HerbeRouge
 Mégaphone
 //56. Map
 Carte
-!REPET=E
 //57. Debug
 Debug
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
 //============
 //MENU ENTRIES
 !START=1CF0
@@ -234,9 +261,10 @@ Youngtown
 //Ellay
 Ellay
 !START=1CA8
-!REPET=3
 //Union
 Union
+!REPEAT
+!REPEAT
 //TODO lieux répétés un peu plus loin de façon random...
 //============
 //PSI
@@ -247,9 +275,13 @@ Union
 Télépathie
 //Teleport
 Téléport
-!REPET=6
 //LifeUp <alpha>
 Soin·[ALPHA]
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
 //LifeUp <beta>
 Soin·[BETA]
 //LifeUp <gamma>
@@ -258,9 +290,11 @@ Soin·[GAMMA]
 Soin·[PIZ]
 //LifeUp <omega>
 Soin·[OMEGA]
-!REPET=4
 //Healing <alpha>
 Guérison·[ALPHA]
+!REPEAT
+!REPEAT
+!REPEAT
 //Healing <beta>
 Guérison·[BETA]
 //Healing <gamma>
@@ -281,6 +315,9 @@ Choc mental
 Mégachoc
 //Hypnosis
 Hypnose
+!NSKIP=C
+!REPEAT
+!NSKIP=-D
 //Paralysis
 Paralysie
 //Darkness
@@ -305,6 +342,7 @@ Défense·-·[ALPHA]
 Défense·-·[BETA]
 //4th-D Slip
 SautDimensl
+!NSKIP=1
 //PK Freeze <alpha>
 PK Glace·[ALPHA]
 //PK Freeze <beta>
@@ -335,24 +373,34 @@ PK Foudre·[ALPHA]
 PK Foudre·[BETA]
 //PK Thunder<gamma>
 PK Foudre·[GAMMA]
-!REPET=9
 //Faintd
 Évanoui
-//// Stone
-//Pétrif.
-////Parlzd
-//Paral.
-////Asleep
-//Endormi
-////Confsd
-//Confus
-////Puzzld
-//Troublé
-////Poison
-//Empois.
-////  Cold
-//Enrhumé
-//TODO altérations d’état dans la bonne zone + le repeat
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
+!START=3C63C
+!ENTRY=-2
+!REPEAT
+// Stone
+Pétrif.
+//Parlzd
+ Paral.
+//Asleep
+Endormi
+//Confsd
+ Confus
+//Puzzld
+Troublé
+//Poison
+Empois.
+//  Cold
+Enrhumé
+//TODO voir si certains sont répétés ailleurs
 //============
 //ENEMIES
 !START=2C010
@@ -440,9 +488,9 @@ Ménagère
 Membre du gang
 //Dr.Distorto
 Dr·Distorto
-!REPET=2
 //Gang Zombie
 Zombie mafieux
+!REPEAT
 //PseudoZombi
 Pseudo-zombie
 //Crow
@@ -487,36 +535,41 @@ Zombie sanglant
 Rat
 //Bomber
 Explosœuf
-!REPET=2
 //Doll
 Poupée
+!REPEAT
 //Lamp
 Lampe
-!REPET=3
 //BionicCenti
 Mille-pattes bionique
+!REPEAT
+!REPEAT
 //BionicScorp
 Scorpion bionique
-!REPET=3
 //Red Snake
 Serpent rouge
+!REPEAT
+!REPEAT
 //Lone Wolf
 Loup solitaire
 //Polar Bear
 Ours polaire
-!REPET=5
 //Rattlesnake
 Serpent à sonnette
+!REPEAT
+!REPEAT
+!REPEAT
+!REPEAT
 //Tarantula
 Tarentule
 //Crocodile
 Crocodile tenace
-!REPET=2
 //Buffalo
 Buffle
-!REPET=2
+!REPEAT
 //Bionic Bat
 Batou bionique
+!REPEAT
 //Stray Dog
 Chien errant
 //Psycho Car
@@ -527,19 +580,20 @@ Camion démoniaque
 Camion mortel
 //Alarm Ghost
 Fantôme S.O.S.
-!REPET=2
 //Foureyes
 Katzieux
+!REPEAT
 //Dadseyes
 Papa Zieux
 //Momseyes
 Maman Zieux
-!REPET=3
 //Sky Yddet
 Nounours du ciel
-!REPET=2
+!REPEAT
+!REPEAT
 //Giga Borg
 Giga-Borg
+!REPEAT
 //Omega Borg
 Borg ultime
 //Scrapper
@@ -564,9 +618,9 @@ Satanie
 Titanien
 //Oh-Mook
 Mook senior
-!REPET=2
 //Zombie
 Zombie
+!REPEAT
 //NastyZombie
 Zombie cruel
 //Silver Wolf

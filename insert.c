@@ -36,7 +36,7 @@ unsigned char ConvChar(unsigned char);
 void          ConvComplexString(char[], int&);
 void          CompileCC(char[], int&, unsigned char[], int&);
 int           CharToHex(char);
-unsigned int  hstrtoi(char*);
+int  		  hstrtoi(char*);
 void          StartWritingInRom(int address, int flag, const char * comment);
 void          WriteInRom(int character);
 void          WriteReport();
@@ -395,17 +395,22 @@ void LoadTable(void)
 
 //=================================================================================================
 
-unsigned int hstrtoi(char* string)
+int hstrtoi(char* string)
 {
    unsigned int retval = 0;
-
+   int sign = 1;
+   
    for (int i = 0; i < strlen(string); i++)
    {
       retval <<= 4;
       retval += CharToHex(string[i]);
    }
+   
+   if (string[0] == '-') {
+	   sign = -1;
+   }
 
-   return retval;
+   return retval * sign;
 }
 
 //=================================================================================================
@@ -673,9 +678,8 @@ void InsertNames(void)
 	int   baseloc = 0x10;
     int   loc;
 	int   ptrLoc;
-	int   pntOffset = 0;
+	int   ptrOffset = 0;
 	int   ptrStep = 1;
-	int   ptrRepeat = 0;
 	
 	int   ptrBaseValue = 0x8000;
 	int   ptrValue;
@@ -705,29 +709,27 @@ void InsertNames(void)
 		} else if (str[0] == '!') {
 			str[strcspn(str,"\r\n")] = '\0';
 			if (strncmp(str, "!START=", 7) == 0) {
-				printf("START %s\n", &str[7]);
 				ptrLoc = hstrtoi(&str[7]);
-				printf("%d\n", ptrLoc);
 			} else if (strncmp(str, "!OFFST=", 7) == 0) {
-				pntOffset = hstrtoi(&str[7]);
-				printf("OFFST at %d\n", ptrLoc);
+				ptrOffset = hstrtoi(&str[7]);
 			} else if (strncmp(str, "!ENTRY=", 7) == 0) {
 				ptrStep = hstrtoi(&str[7]);
-				printf("STOP as %d\n", ptrStep);
-			} else if (strncmp(str, "!REPET=", 7) == 0) {
-				ptrRepeat = hstrtoi(&str[7]);
+			} else if (strncmp(str, "!REPEAT", 7) == 0) {
+				StartWritingInRom(ptrLoc + ptrOffset, WRITE_FLAG_NORMAL, "Insert M1 name pointer");
+				WriteInRom(ptrValue & 0x00FF);
+				WriteInRom(ptrValue >> 8);
+				ptrLoc += ptrStep;
+			} else if (strncmp(str, "!NSKIP=", 7) == 0) {
+				ptrLoc += ptrStep * hstrtoi(&str[7]);
 			}
 		} else {
 
 			ptrValue = loc - baseloc + ptrBaseValue;
 			
-			do {
-				StartWritingInRom(ptrLoc + pntOffset, WRITE_FLAG_NORMAL, "Insert M1 name pointer");
-				WriteInRom(ptrValue & 0x00FF);
-				WriteInRom(ptrValue >> 8);
-				ptrRepeat--;
-				ptrLoc += ptrStep;
-			} while (ptrRepeat > 0);
+			StartWritingInRom(ptrLoc + ptrOffset, WRITE_FLAG_NORMAL, "Insert M1 name pointer");
+			WriteInRom(ptrValue & 0x00FF);
+			WriteInRom(ptrValue >> 8);
+			ptrLoc += ptrStep;
 
 			PrepString(str, str2, 0);
 			//printf("%d", str2[0]);
