@@ -18,7 +18,8 @@ CHR-ROM
 
 =====
 Noms longs d’ennemis / dépassements noms d’objets + PSI + autre
-560 octets (0x230) ⇒ dans PRG "Blank", 1680 octets (0x690) libres
+//560 octets (0x230) <— comment ça 0x230, c’est pas plutôt 0x0E2 ??
+226 octets (0xE2), ou 1127 octets (0x467) si on met tous les ennemis ⇒ dans PRG "Blank", 1680 octets (0x690) libres
 
 ======
 Routines de code
@@ -65,14 +66,14 @@ Texte supplémentaire dans le script
 Données fenêtres de dialogue
 4096 octets (0x1000)
 ou 1024 octets (0x400) en version réduite : si on met 4 lignes de dialogue par octet (2 bits par ligne nécessaires)
-⇒ dans PRG "Blank" (en version réduite ; il reste tout juste la place après les noms d’ennemis supplémentaires)
-⇒ ou dans PRG "Unknown" (en version réduite ; il reste tout juste la place après les routines de code)
+⇒ plutôt dans PRG "Unknown" (en version réduite ; il reste tout juste la place après les routines de code)
+⇒ ou dans PRG "Blank" (en version réduite ; il reste tout juste la place si on n’a pas mis tous les ennemis mais seulement ceux en trop)
 ⇒ sinon, dans CHR
 
 ======
 Éléments misc_text supplémentaires
 201 octets (0xC9)
-⇒ dans PRG "Blank" ou "Unknown", selon ce qu’il reste
+⇒ dans PRG "Blank" ou "Unknown", selon ce qu’il reste (donc pas le même que pour les fenêtres de dialogues)
 ⇒ sinon, dans CHR
 
 org $8FFE900; fill $3D //  Vowels for elision
@@ -89,7 +90,7 @@ org $8FE79E0; fill $07 //  TENTH ROW
 ======
 Articles
 2304 octets (0x900)
-⇒ dans PRG "Blank" ou "Unknown", selon ce qu’il reste (le même que misc_text), pour les id de classe par article
+⇒ dans PRG "Blank" ou "Unknown", selon ce qu’il reste (le même que misc_text), pour les id de classe par article soit 256 octets (0x100)
 ⇒ dans CHR (pas trop le choix) pour le reste ; mais ce serait mieux dans PRG
 
 org $8FFE000; fill $7F // Insert M1 item articles
