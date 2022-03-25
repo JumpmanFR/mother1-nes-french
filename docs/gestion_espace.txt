@@ -6,7 +6,7 @@ Noms longs d’ennemis / dépassements noms d’objets + PSI + autre
 
 ======
 Routines de code
-2714 octets (0xA9A) ⇒ dans PRG "Unused", 3932 octets (0xF5C) libres
+2714 octets (0xA9A) ⇒ dans PRG "Unknown" (à 0x328B4), 3932 octets (0xF5C) libres
 
 ======
 Données binaires (fenêtres, graphiques) relocalisées

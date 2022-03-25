@@ -537,14 +537,16 @@ void InsertMainStuff(void)
 	char  str[5000];
 	char  str2[5000];
 	int   lineNum = 0;
-	int   baseloc = 0x60010;
+	int   textAreaStart = 0x60010;
+	int   textAreaStop = 0x7400F;
+	int   textAreaBis = 0x76810;
     int   loc;
 	int   ptrLoc;
-	int   temp;
+	int   ptrValue;
 	int   len;
 	int   i;
 
-	loc = baseloc;
+	loc = textAreaStart;
 
 	fin = fopen("script.txt", "r");
 	if (fin == NULL)
@@ -564,19 +566,21 @@ void InsertMainStuff(void)
 
   		if (str2[0] != '\n')
   		{
-			//printf("%d", str2[0]);
-//                       printf("%X %s\n", loc, str);
-			ptrLoc = 0x30010 + lineNum * 3;
-			StartWritingInRom(ptrLoc, WRITE_FLAG_NORMAL, "Insert M1 main text pointer");
-
-			temp = loc - baseloc;
-	        WriteInRom(temp & 0x0000FF);
-            WriteInRom((temp & 0x00FF00) >> 8);
-	        WriteInRom(temp >> 16);
-
 			ConvComplexString(str2, len);
 			str2[len] = 0x00;
 			len++;
+			
+			if (loc < textAreaBis && loc + len > textAreaStop) {
+				loc = textAreaBis;
+			}
+
+			ptrLoc = 0x30010 + lineNum * 3;
+			StartWritingInRom(ptrLoc, WRITE_FLAG_NORMAL, "Insert M1 main text pointer");
+
+			ptrValue = loc - textAreaStart;
+	        WriteInRom(ptrValue & 0x0000FF);
+            WriteInRom((ptrValue & 0x00FF00) >> 8);
+	        WriteInRom(ptrValue >> 16);
 
             StartWritingInRom(loc, WRITE_FLAG_NORMAL, "Insert M1 main text");
             for (i = 0; i < len; i++)
@@ -675,7 +679,9 @@ void InsertNames(void)
 	char  str[5000];
 	char  str2[5000];
 	int   lineNum = 0;
-	int   baseloc = 0x10;
+	int   textAreaStart = 0x10;
+	int   textAreaStop = 0x9DB;
+	int   textAreaBis = 0x31780;
     int   loc;
 	int   ptrLoc;
 	int   ptrOffset = 0;
@@ -686,13 +692,9 @@ void InsertNames(void)
 	
 	int   len;
 	int   i;
-
-	//char* toto = "1810\n";
-	//printf("%s: %d\n", toto, hstrtoi(toto));
-	//exit(0);
 	
-	loc = baseloc;
-	ptrLoc = baseloc;
+	loc = textAreaStart;
+	ptrLoc = textAreaStart;
 	
 	fin = fopen("names.txt", "r");
 	if (fin == NULL)
@@ -724,20 +726,21 @@ void InsertNames(void)
 			}
 		} else {
 
-			ptrValue = loc - baseloc + ptrBaseValue;
+			PrepString(str, str2, 0);	
+			ConvComplexString(str2, len);
+			str2[len] = 0x00;
+			len++;
+			
+			if (loc < textAreaBis && loc + len > textAreaStop) {
+				loc = textAreaBis;
+			}
+
+			ptrValue = loc - textAreaStart + ptrBaseValue;
 			
 			StartWritingInRom(ptrLoc + ptrOffset, WRITE_FLAG_NORMAL, "Insert M1 name pointer");
 			WriteInRom(ptrValue & 0x00FF);
 			WriteInRom(ptrValue >> 8);
 			ptrLoc += ptrStep;
-
-			PrepString(str, str2, 0);
-			//printf("%d", str2[0]);
-			
-			ConvComplexString(str2, len);
-			//printf(" length: %n\n", len);
-			str2[len] = 0x00;
-			len++;
 
             StartWritingInRom(loc, WRITE_FLAG_NORMAL, "Insert M1 names");
             for (i = 0; i < len; i++)
