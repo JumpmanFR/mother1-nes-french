@@ -41,6 +41,9 @@ Memory issues:
 – potential crash when long enemy names
 – crash when text too long
 
+Other fixes
+– graphical issues due to larger dialog box
+
 Challenging/dynamical graphical translations:
 – store categories
 
@@ -55,7 +58,6 @@ Translation bonus:
 Graphical translations:
 – producted/presented by
 – map
-– title screen copyrights
 – end credits
 
 Dynamical positionning:

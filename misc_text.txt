@@ -1,0 +1,39 @@
+// File selection screen
+338CD Niv
+338DC sera écrasé. OK ?
+338F0 [A0]    Oui  Non
+33916 Copier où ?
+33938 Niv
+33956 Niv
+33974 Niv
+33984 Jouer Copier Effacer
+
+//TODO too long:
+//339A9 EMPLACEMENT 1
+//339C1 EMPLACEMENT 2
+//339D9 EMPLACEMENT 3
+//339EC Commencer
+
+// Naming/intro sequence (/!\ REPEATED LATER)
+33B13 Nommez ce[BREAK]garçon[END]
+33B2C Nommez cette[BREAK]fille[END]
+33B46 Nommez cet[BREAK]ami[END]
+33B5D Nommez cet[BREAK]autre ami[END]
+33B73 Votre plat[BREAK]préféré ?[END]
+33B8F Nom non[BREAK]autorisé[END]
+33BA8 Un personnage  [BREAK]du jeu porte   [BREAK]déjà ce nom.   [BREAK]Réessayez avec [BREAK]des lettres    [BREAK]capitales.     
+33C08 Mary[A2][BREAK]Suzy[A2][BREAK]George[A2][BREAK]Maria[A2][BREAK]Mimmie[A2][BREAK]Minnie[A2][BREAK]Fifi[A2][BREAK]Duncan[A2][BREAK]Laura[A2][BREAK]Giygas[A2][BREAK]Abbé[A2][BREAK]Jane[A2][BREAK]Ulrich[A2][BREAK]Caroline[A2][BREAK]Suzie[A2][BREAK] [BREAK][END]
+33CE0 [BREAK][BREAK]Dans les années 1900, une[BREAK]ombre s'étendit au-dessus[BREAK]d'un village américain.[BREAK]Peu après, un couple marié[BREAK]disparut mystérieusement.[BREAK][BREAK]L'homme s'appelait George,[BREAK]la femme s'appelait Maria.[BREAK][BREAK]Deux ans plus tard, George[BREAK]réapparut mais ne confia à[BREAK]personne ce qui lui était[BREAK]arrivé.[BREAK]Il s'isola et se plongea[BREAK]dans d'étranges recherches.[BREAK][BREAK]Quant à sa femme, Maria...[BREAK]elle ne revint jamais.[END]
+33E8D [BREAK][BREAK]1988, dans la proche[BREAK]banlieue de Podunk...[END]
+
+// Naming/intro sequence (/!\ REPEATED FROM EARLIER)
+5EB13 Nommez ce[BREAK]garçon[END]
+5EB2C Nommez cette[BREAK]fille[END]
+5EB46 Nommez cet[BREAK]ami[END]
+5EB5D Nommez cet[BREAK]autre ami[END]
+5EB73 Votre plat[BREAK]préféré ?[END]
+5EB8F Nom non[BREAK]autorisé[END]
+5EBA8 Un personnage  [BREAK]du jeu porte   [BREAK]déjà ce nom.   [BREAK]Réessayez avec [BREAK]des lettres    [BREAK]capitales.     
+5EC08 Mary[A2][BREAK]Suzy[A2][BREAK]George[A2][BREAK]Maria[A2][BREAK]Mimmie[A2][BREAK]Minnie[A2][BREAK]Fifi[A2][BREAK]Duncan[A2][BREAK]Laura[A2][BREAK]Giygas[A2][BREAK]Abbé[A2][BREAK]Jane[A2][BREAK]Ulrich[A2][BREAK]Caroline[A2][BREAK]Suzie[A2][BREAK] [BREAK][END]
+5ECE0 [BREAK][BREAK]Dans les années 1900, une[BREAK]ombre s'étendit au-dessus[BREAK]d'un village américain.[BREAK]Peu après, un couple marié[BREAK]disparut mystérieusement.[BREAK][BREAK]L'homme s'appelait George,[BREAK]la femme s'appelait Maria.[BREAK][BREAK]Deux ans plus tard, George[BREAK]réapparut mais ne confia à[BREAK]personne ce qui lui était[BREAK]arrivé.[BREAK]Il s'isola et se plongea[BREAK]dans d'étranges recherches.[BREAK][BREAK]Quant à sa femme, Maria...[BREAK]elle ne revint jamais.[END]
+5EE8D [BREAK][BREAK]1988, dans la proche[BREAK]banlieue de Podunk...[END]
