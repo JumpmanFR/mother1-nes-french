@@ -1,5 +1,7 @@
 // File selection screen
 338CD Niv
+338C7 <
+338D5 >
 338DC sera écrasé. OK ?
 338F0 [A0]    Oui  Non
 33916 Copier où ?
@@ -7,12 +9,11 @@
 33956 Niv
 33974 Niv
 33984 Jouer Copier Effacer
-
-//TODO too long:
-//339A9 EMPLACEMENT 1
-//339C1 EMPLACEMENT 2
-//339D9 EMPLACEMENT 3
-//339EC Commencer
+// File selection screen (relocated)
+33EC8 EMPLACEMENT 1
+33EE6 EMPLACEMENT 2
+33F04 EMPLACEMENT 3
+33F1C Commencer
 
 // Naming/intro sequence (/!\ REPEATED LATER)
 33B13 Nommez ce[BREAK]garçon[END]
