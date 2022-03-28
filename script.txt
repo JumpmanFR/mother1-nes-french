@@ -651,7 +651,7 @@
 145: @Must have lost[BREAK] her. Couldn't[BREAK] help it...[BREAK][PAUSE]@Anyway, I'm going[BREAK] to check for[BREAK] speeders instead.[BREAK][END]
 145-E: @Il a sûrement dû s'enfuir.[BREAK][PAUSE]@Je vais devoir me contenter[BREAK] d'arrêter des voitures qui[BREAK] roulent 1 km/h trop vite...[BREAK][END]
 146: @She ate[BREAK] 5 [21 89 76]s,[BREAK][PAUSE]@then ran away[BREAK] without paying.[BREAK][PAUSE]@If you see her,[BREAK] let me know![BREAK][END]
-146-E: @Il a mangé cinq assiettes[BREAK] d(03 5F)[21 89 76] et s'est enfui[BREAK] sans payer.[BREAK][PAUSE]@Si tu le vois, préviens-moi[BREAK] immédiatement ![BREAK][END]
+146-E: @Il a mangé cinq assiettes[BREAK] d(03 5F)[21 89 76] et s'est[BREAK] enfui sans payer.[BREAK][PAUSE]@Si tu le vois, préviens-moi[BREAK] immédiatement ![BREAK][END]
 147: @Oh, I'm so full!![BREAK][END]
 147-E: @Pfiou, j'ai le ventre bien[BREAK] rempli. (rote)[BREAK][END]
 148: @This town has[BREAK] become dangerous![BREAK][PAUSE]@But it's still a[BREAK] much better place[BREAK] than Ellay.[BREAK][END]

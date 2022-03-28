@@ -2,7 +2,7 @@ define addr_main_font $5F010
 org {addr_main_font}; incbin font.bin
 
 define base_file_select $2D810
-define addr_win_new_game $33EC0
+define addr_win_new_game $33EC0     // original address: 339A0, now $5D free bytes there
 define size_slot $1E
 define offset_ptr_start_up $1C
 define offset_start_up $1B
