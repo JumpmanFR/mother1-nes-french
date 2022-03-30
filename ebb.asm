@@ -18,17 +18,18 @@ org $3388D; dw {addr_win_new_game}-{base_file_select}+{size_slot}*2	// pointer t
 org {addr_win_new_game}+{offset_ptr_start_up}; dw {addr_win_new_game}-{base_file_select}+{size_slot}*2+{offset_start_up}
 org {addr_win_new_game}+{offset_ptr_start_up}+{size_slot}; dw {addr_win_new_game}-{base_file_select}+{size_slot}*2+{offset_start_up}
 
-// Translated setup menu
-org $152E; incbin window_setup.bin
-
 // OVERWORLD WINDOWS
 define test $7F
 define base_overworld_windows $7FF0
 // Replace main menus: action, cash and status bar
 define addr_win_main_menus $16B3
+define addr_win_battle_bar {addr_win_main_menus}+$7D
 define addr_win_status_bar {addr_win_main_menus}+$80
 org $3C27C; lda #{base_overworld_windows}+{addr_win_main_menus}&$FF; ldx #{base_overworld_windows}+{addr_win_main_menus}>>8
 org $3C352; dw {base_overworld_windows}+{addr_win_status_bar}
+org $3C33D; dw {base_overworld_windows}+{addr_win_status_bar}
+//org $3C36D; dw {base_overworld_windows}+{addr_win_status_bar} // not sure, comment out if status bar is messed up
+org $3C458; lda #{base_overworld_windows}+{addr_win_battle_bar}&$FF; ldx #{base_overworld_windows}+{addr_win_battle_bar}>>8
 org {addr_win_main_menus}; incbin window_main_menus.bin
 // Expand items menu
 org $12AC; db $03 // move 2 tiles left
@@ -41,10 +42,13 @@ org $12DC; db $1A
 // Add new larger dialog window
 define addr_win_dialog_large $11E9
 org {addr_win_dialog_large}; incbin window_dialog_large.bin
+// Translate setup menu
+org $152E; incbin window_setup.bin
 // Replace "who" window
 define addr_win_who $17D0
 org $3C3D0; lda #{base_overworld_windows}+{addr_win_who}&$FF; ldx #{base_overworld_windows}+{addr_win_who}>>8
 org {addr_win_who}; incbin window_who.bin
+// Replace item actions menu
 define addr_win_item_actions $121A
 org $3C3D7; lda #{base_overworld_windows}+{addr_win_item_actions}&$FF; ldx #{base_overworld_windows}+{addr_win_item_actions}>>8
 org {addr_win_item_actions}; incbin window_item_actions.bin
