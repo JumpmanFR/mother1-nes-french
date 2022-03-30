@@ -1,15 +1,15 @@
-// Status bar
-125D Nom[DC]
-1264 Niv
-1269 PV
-126D PP
-1239 [FE]En main
-1246 [A0]
-124D $
+// Item actions menu
+1227 Utiliser
+1235 Manger
+1243 Donner
+1251 Jeter
+125F Infos
+
+// Cash menu when using cash card
 138B [A0]
 1392 $
 
-
+// Setup menu
 1533 Configuration
 1549 Utilisez la manette + pour
 156A déplacer le curseur, et le
@@ -21,6 +21,27 @@
 1630 Action du bouton SELECT
 1652 [94]Statut [94]Carte  [94]Courir
 1671 Vitesse textes de combat
+
+// Action menu
+16B8 Commandes
+16CA Parler
+16D1 Examiner
+16DF Objets
+16E6 Statut
+16F4 PSI
+16FB Config
+
+// Status bar
+1711 [FE]En main
+171E [A0]
+1725 $
+1735 Nom[DC]
+173C Niv
+1741 PV
+1745 PP
+
+// "Who?" target for PSI/item
+17D9 Qui ?
 
 // File selection screen
 338CD Niv
