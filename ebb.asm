@@ -1,5 +1,9 @@
+arch nes.cpu
+
 define addr_main_font $5F010
 org {addr_main_font}; incbin font.bin
+
+org $152E; incbin window_setup.bin
 
 define base_file_select $2D810
 define addr_win_new_game $33EC0     // original address: 339A0, now $5D free bytes there

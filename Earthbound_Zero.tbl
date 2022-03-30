@@ -1,6 +1,8 @@
 00=<END>
 01=<LINE>
 03=<WAIT>
+20=<POS>
+22=<REP>
 
 C0=@
 C1=A
@@ -81,13 +83,11 @@ B6=6
 B7=7
 B8=8
 B9=9
+24=|
+DC=—
 
 BB=<alpha>
 BC=<beta>
 BD=<gamma>
 BE=<pi>
 BF=<omega>
-
-(The top)000000
-(Text pointers)030010
-(Text start)060000

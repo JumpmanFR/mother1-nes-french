@@ -680,7 +680,7 @@ void InsertNames(void)
 	char  str2[5000];
 	int   lineNum = 0;
 	int   textAreaStart = 0x10;
-	int   textAreaStop = 0x9DB; // 0x655 pour mettre tous les ennemis, 0x9DB pour seulement ceux qui dépassent
+	int   textAreaStop = 0x9DB; // 0x655 pour mettre tous les ennemis en bis, 0x9DB pour mettre seulement ceux qui dépassent
 	int   textAreaBis = 0x31780;
     int   loc;
 	int   ptrLoc;
@@ -731,9 +731,9 @@ void InsertNames(void)
 			str2[len] = 0x00;
 			len++;
 			
-			if (loc < textAreaBis && loc + len > textAreaStop) {
+			/*if (loc < textAreaBis && loc + len > textAreaStop) {
 				loc = textAreaBis;
-			}
+			}*/
 
 			ptrValue = loc - textAreaStart + ptrBaseValue;
 			

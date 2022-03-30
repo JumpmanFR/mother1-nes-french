@@ -1,3 +1,27 @@
+// Status bar
+125D Nom[DC]
+1264 Niv
+1269 PV
+126D PP
+1239 [FE]En main
+1246 [A0]
+124D $
+138B [A0]
+1392 $
+
+
+1533 Configuration
+1549 Utilisez la manette + pour
+156A déplacer le curseur, et le
+158B bouton A pour confirmer.   
+15B4 Action du bouton B
+15D1 [94]Statut [94]Carte  [94]Courir
+15F0 Action du bouton START
+1611 [94]Statut [94]Carte  [94]Courir
+1630 Action du bouton SELECT
+1652 [94]Statut [94]Carte  [94]Courir
+1671 Vitesse textes de combat
+
 // File selection screen
 338CD Niv
 338C7 <

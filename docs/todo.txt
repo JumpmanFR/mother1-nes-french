@@ -34,17 +34,18 @@ Custom control codes:
 – elision
 – gender
 – number
-– articles for fighters (fight)
-– articles for items: standard case, stolen item, won item (fight)
+– articles for fighters (battle)
+– articles for items: standard case, stolen item, won item (battle)
 
 Memory issues:
-– potential crash when long enemy names
+– potential crash when long enemy names ?
 – crash when text too long
 
 Other fixes
 – graphical issues due to larger dialog box
 
 Challenging/dynamical graphical translations:
+– two sizes handling for dialog box
 – store categories
 
 Data/layout:

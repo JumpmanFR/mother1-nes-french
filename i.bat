@@ -1,5 +1,5 @@
 copy ebb.nes test.nes
-@xkas test.nes ebb.asm
+@xkas -o test.nes ebb.asm
 @insert.exe 1
 @echo.
 @echo off
