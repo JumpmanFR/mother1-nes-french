@@ -40,8 +40,19 @@
 1741 PV
 1745 PP
 
+// Battle menu
+1782 Attaque
+178C Auto
+1797 PSI
+179D Garde
+17A9 Objets
+17B2 Fuite
+17BE Analyse
+17D2 Analyse
+17DC Chanter
+
 // "Who?" target for PSI/item
-17D9 Qui ?
+17F9 Qui ?
 
 // File selection screen
 338CD Niv

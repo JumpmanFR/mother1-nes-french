@@ -45,10 +45,27 @@ org {addr_win_dialog_large}; incbin window_dialog_large.bin
 // Translate setup menu
 org $152E; incbin window_setup.bin
 // Replace "who" window
-define addr_win_who $17D0
+define addr_win_who $17F0
 org $3C3D0; lda #{base_overworld_windows}+{addr_win_who}&$FF; ldx #{base_overworld_windows}+{addr_win_who}>>8
 org {addr_win_who}; incbin window_who.bin
 // Replace item actions menu
 define addr_win_item_actions $121A
 org $3C3D7; lda #{base_overworld_windows}+{addr_win_item_actions}&$FF; ldx #{base_overworld_windows}+{addr_win_item_actions}>>8
 org {addr_win_item_actions}; incbin window_item_actions.bin
+
+// BATTLE WINDOWS
+org $D48; incbin window_battle_messages.bin
+define addr_win_battle_menu $1780
+define offset_win_battle_1 $15
+define offset_win_battle_2 {offset_win_battle_1}+$12
+define offset_win_battle_3 {offset_win_battle_2}+$15
+define offset_win_battle_3bis {offset_win_battle_3}+$14
+org {addr_win_battle_menu}; incbin window_battle_menu.bin
+org $C6B; dw {base_overworld_windows}+{addr_win_battle_menu} // was $8D93
+org $C84; dw {base_overworld_windows}+{addr_win_battle_menu}
+org $C6E; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_1} // was $8DA6
+org $C87; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_1}
+org $C71; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_2} // was $8DB8
+org $C8A; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_2}
+org $C74; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_3} // was $8DCA
+org $C8D; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_3bis} // was $8DDC
