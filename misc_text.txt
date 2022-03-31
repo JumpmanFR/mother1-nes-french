@@ -9,6 +9,7 @@
 137E [FE]En main
 138B [A0]
 1392 $
+13B3 Statut
 
 // Status menu
 13DD Niv
