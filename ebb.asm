@@ -22,7 +22,7 @@ org {addr_win_new_game}+{offset_ptr_start_up}+{size_slot}; dw {addr_win_new_game
 define test $7F
 define base_overworld_windows $7FF0
 // Replace main menus: action, cash and status bar
-define addr_win_main_menus $16B3
+define addr_win_main_menus $16B6
 define addr_win_battle_bar {addr_win_main_menus}+$7D
 define addr_win_status_bar {addr_win_main_menus}+$80
 org $3C27C; lda #{base_overworld_windows}+{addr_win_main_menus}&$FF; ldx #{base_overworld_windows}+{addr_win_main_menus}>>8
@@ -43,7 +43,9 @@ org $12DC; db $1A
 define addr_win_dialog_large $11E9
 org {addr_win_dialog_large}; incbin window_dialog_large.bin
 // Translate setup menu
-org $152E; incbin window_setup.bin
+define addr_win_setup $1531
+org $3C3FD; lda #{base_overworld_windows}+{addr_win_setup}&$FF; ldx #{base_overworld_windows}+{addr_win_setup}>>8
+org {addr_win_setup}; incbin window_setup.bin
 // Replace "who" window
 define addr_win_who $17F0
 org $3C3D0; lda #{base_overworld_windows}+{addr_win_who}&$FF; ldx #{base_overworld_windows}+{addr_win_who}>>8
@@ -52,6 +54,8 @@ org {addr_win_who}; incbin window_who.bin
 define addr_win_item_actions $121A
 org $3C3D7; lda #{base_overworld_windows}+{addr_win_item_actions}&$FF; ldx #{base_overworld_windows}+{addr_win_item_actions}>>8
 org {addr_win_item_actions}; incbin window_item_actions.bin
+// Translate status menu
+org $13C8; incbin window_status.bin
 
 // BATTLE WINDOWS
 org $D48; incbin window_battle_messages.bin

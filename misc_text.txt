@@ -6,39 +6,55 @@
 125F Infos
 
 // Cash menu when using cash card
+137E [FE]En main
 138B [A0]
 1392 $
 
+// Status menu
+13DD Niv
+13F3 PV
+140C PP
+1425 Attaque
+144B Défense
+145B Équipement
+146C Fougue
+1486 Vitess
+1528 e
+14A0 Sagess
+152C e
+14BA Vigueur
+14E4 Force
+14F3 Mélodies
+1504 Exp
+
 // Setup menu
-1533 Configuration
-1549 Utilisez la manette + pour
-156A déplacer le curseur, et le
-158B bouton A pour confirmer.   
-15B4 Action du bouton B
-15D1 [94]Statut [94]Carte  [94]Courir
-15F0 Action du bouton START
-1611 [94]Statut [94]Carte  [94]Courir
-1630 Action du bouton SELECT
-1652 [94]Statut [94]Carte  [94]Courir
-1671 Vitesse textes de combat
+1536 Configuration
+154C Utilisez la manette + pour
+156D déplacer le curseur, et le
+158E bouton A pour confirmer.   
+15B7 Action du bouton B
+15D4 [94]Statut [94]Carte  [94]Courir
+15F3 Action du bouton START
+1614 [94]Statut [94]Carte  [94]Courir
+1633 Action du bouton SELECT
+1655 [94]Statut [94]Carte  [94]Courir
+1674 Vitesse textes de combat
 
-// Action menu
-16B8 Commandes
-16CA Parler
-16D1 Examiner
-16DF Objets
-16E6 Statut
-16F4 PSI
-16FB Config
-
-// Status bar
-1711 [FE]En main
-171E [A0]
-1725 $
-1735 Nom[DC]
-173C Niv
-1741 PV
-1745 PP
+// Action menu + cash + status bar
+16BB Commandes
+16CD Parler
+16D4 Examiner
+16E2 Objets
+16E9 Statut
+16F7 PSI
+16FE Config
+1714 [FE]En main
+1721 [A0]
+1728 $
+1738 Nom[DC]
+173F Niv
+1744 PV
+1748 PP
 
 // Battle menu
 1782 Attaque
