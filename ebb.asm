@@ -28,7 +28,7 @@ define addr_win_status_bar {addr_win_main_menus}+$80
 org $3C27C; lda #{base_overworld_windows}+{addr_win_main_menus}&$FF; ldx #{base_overworld_windows}+{addr_win_main_menus}>>8
 org $3C352; dw {base_overworld_windows}+{addr_win_status_bar}
 org $3C33D; dw {base_overworld_windows}+{addr_win_status_bar}
-//org $3C36D; dw {base_overworld_windows}+{addr_win_status_bar} // not sure, comment out if status bar is messed up
+org $3C36D; dw {base_overworld_windows}+{addr_win_status_bar}
 org $3C458; lda #{base_overworld_windows}+{addr_win_battle_bar}&$FF; ldx #{base_overworld_windows}+{addr_win_battle_bar}>>8
 org {addr_win_main_menus}; incbin window_main_menus.bin
 // Expand items menu
