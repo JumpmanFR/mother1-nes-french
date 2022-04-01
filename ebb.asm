@@ -96,3 +96,7 @@ org $E55; db $1A
 org $D19; dw $8D93 // “can’t use” (relocated earlier, where the battle menu used to be)
 org $D2D; dw $8DBB // “can’t equip” (relocated earlier, where the battle menu used to be)
 org $D41; dw $8E48 // “not suitable for [character]”
+
+// GRAPHICS
+// Town map
+org $56010; incbin gfx_map.bin
