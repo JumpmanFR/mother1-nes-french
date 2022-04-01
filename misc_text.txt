@@ -1,3 +1,8 @@
+// Battle item errors
+DA3 [20][04][19]Ne peut être utilisé ici[00]
+DCB [20][04][19]Ne peut être équipé ici[00]
+E58 [20][04][19][21][80][05] ne peut l'utiliser[00]
+
 // Item actions menu
 1227 Utiliser
 1235 Manger

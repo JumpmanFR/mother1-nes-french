@@ -58,7 +58,9 @@ org {addr_win_item_actions}; incbin window_item_actions.bin
 org $13C8; incbin window_status.bin
 
 // BATTLE WINDOWS
+// Expand battle message window
 org $D48; incbin window_battle_messages.bin
+// Relocate and translate battle action menu
 define addr_win_battle_menu $1780
 define offset_win_battle_1 $15
 define offset_win_battle_2 {offset_win_battle_1}+$12
@@ -73,3 +75,24 @@ org $C71; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_
 org $C8A; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_2}
 org $C74; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_3} // was $8DCA
 org $C8D; dw {base_overworld_windows}+{addr_win_battle_menu}+{offset_win_battle_3bis} // was $8DDC
+// Expand battle enemy list
+org $E18; db $16 // window size
+org $E1E; db $16
+org $E24; db $16
+org $CB1; db $07 // window position
+// Expand battle items/PSI menu
+org $E2A; db $1A
+org $E30; db $1A
+org $E36; db $1A
+org $CC1; db $03 // window position
+// Expand “you can’t” battle window
+org $D09; db $03 // window position for “can’t use”
+org $D1D; db $03 // window position for “can’t equip”
+org $D31; db $03 // window position for “not suitable for [character]”
+org $E49; db $1A
+org $E4F; db $1A
+org $E55; db $1A
+//Relocate “you can’t” messages because too long
+org $D19; dw $8D93 // “can’t use” (relocated earlier, where the battle menu used to be)
+org $D2D; dw $8DBB // “can’t equip” (relocated earlier, where the battle menu used to be)
+org $D41; dw $8E48 // “not suitable for [character]”
