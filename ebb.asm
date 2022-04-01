@@ -42,6 +42,9 @@ org $12DC; db $1A
 // Add new larger dialog window
 define addr_win_dialog_large $11E9
 org {addr_win_dialog_large}; incbin window_dialog_large.bin
+org $3C3B0; lda #{base_overworld_windows}+{addr_win_dialog_large}&$FF; ldx #{base_overworld_windows}+{addr_win_dialog_large}>>8
+org $26DEB; db $02
+org $27C2E; db $02
 // Translate setup menu
 define addr_win_setup $1531
 org $3C3FD; lda #{base_overworld_windows}+{addr_win_setup}&$FF; ldx #{base_overworld_windows}+{addr_win_setup}>>8
