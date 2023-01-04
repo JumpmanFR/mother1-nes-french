@@ -2290,6 +2290,7 @@
 467-E: <Debug>[BREAK]@.......[BREAK][END]
 468: 
 468-E: 
+// #TYPE=NORMAL_ITEM
 469: 
 469-E: Télépathie
 46A: 
@@ -2416,7 +2417,6 @@
 4A6-E: 
 4A7: 
 4A7-E: 
-// #TYPE=NORMAL_ITEM
 4A8: 
 4A8-E:  Évanoui
 4A9: 
@@ -3847,6 +3847,7 @@
 76E-E: 
 76F: 
 76F-E: 
+// #TYPE=ADDITIONAL_TEXT
 770: 
 770-E: [END]
 771:    
@@ -4040,3 +4041,4 @@
 7CF: [END]
 7CF-E: 
 // LIGNE 6CB DU SCRIPT NES, C’EST (03 1A) SUR GBA DONC ÇA AURAIT DÛ ÊTRE UN [21 20 6D]
+// Les additional texts sont en double, pourquoi déjà ?
