@@ -12,7 +12,7 @@ CarteTéléph
 //03. BreadCrumbs
 Miettes
 //04. Repel Ring
-BagueRépuls
+AnneauRépuls
 //05. Knife
 Couteau
 !REPEAT
@@ -188,7 +188,7 @@ Ocarina
 BdgeFranklin
 !REPEAT
 //4F. Friend Ring
-BagueAmitié
+AnneauAmitié
 //50. Onyx Hook
 CrochetOnyx
 !REPEAT
