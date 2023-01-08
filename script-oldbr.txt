@@ -1593,7 +1593,7 @@
 313: @OK, do what you[SBREAK] want to.[HBREAK][END]
 313-E: @Ah, d'accord.[HBREAK] Comme tu veux.[HBREAK][END]
 314: @Give me $[23 2A 00 02 00][SBREAK] for that.[HBREAK][END]
-314-E: @Ça te coûtera[HHBREAK][23 2A 00 02 00]$. D'accord·?[HBREAK][END]
+314-E: @Ça te coûtera[HBREAK][23 2A 00 02 00]$. D'accord·?[HBREAK][END]
 // #TYPE=NORMAL_TEXT
 315: @Welcome![SBREAK] $[23 2A 00 02 00] for a night.[SBREAK] Care to stay?[HBREAK][END]
 315-E: @Bienvenue.[HBREAK]@La nuit est à [23 2A 00 02 00]$ ici.[HBREAK][PAUSE]@Tu veux une chambre·?[HBREAK][END]
@@ -3522,7 +3522,7 @@
 6CD: @Did you hear it?[HBREAK][END]
 6CD-E: @<Vous avez entendu ça·?>[HBREAK][END]
 6CE: @This place is not[SBREAK] on the map.[HBREAK][END]
-6CE-E: @Cet endroit ne figure pas[SBREAK]sur la carte.[HBREAK][END]
+6CE-E: @Cet endroit ne figure pas[SBREAK] sur la carte.[HBREAK][END]
 6CF: @[21 0A 67] checked[SBREAK] the map.[HBREAK][END]
 6CF-E: @[21 20 6D] consulte la carte.[HBREAK][END]
 6D0: @Stopped by some[SBREAK] mysterious force.[HBREAK][END]
