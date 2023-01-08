@@ -3,3 +3,6 @@ insert_report.txt
 *.ups
 *_converted.txt
 *.bak
+*.ram
+*.deb
+*.bs?
