@@ -1,3 +1,4 @@
+python format_script.py script-source.txt script.txt
 copy ebb.nes test.nes
 @xkas -o test.nes ebb.asm
 @insert.exe 1
