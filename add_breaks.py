@@ -85,8 +85,8 @@ LINE_TYPES = {
 
 def computeLength(str):
     return len(str)
-
-def handleReplic(str, lineType):
+    
+def addBreaks(str, lineType):
     str = str.replace("[SBREAK]" + lineType["leading_spaces"], " ")
     str = str.replace("[SBREAK]", "")
     
@@ -139,6 +139,11 @@ def handleReplic(str, lineType):
 
     return "[PAUSE]".join(segmentsArr)
 
+
+def handleReplic(str, lineType):
+    str = re.sub(r"\[GBA(-..)+\]", "", str)
+    str = addBreaks(str, lineType)
+    return str
 
 #replicStr = "@Brother, here's some juice.[BREAK][PAUSE]@You are thirsty, aren't you?[BREAK][END]"
 #replicStr = "@J'ai déposé [23 15 74 03 00]$[HBREAK] sur ton compte bancaire."
