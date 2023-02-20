@@ -31,6 +31,7 @@ org $3C33D; dw {base_overworld_windows}+{addr_win_status_bar}
 org $3C36D; dw {base_overworld_windows}+{addr_win_status_bar}
 org $3C458; lda #{base_overworld_windows}+{addr_win_battle_bar}&$FF; ldx #{base_overworld_windows}+{addr_win_battle_bar}>>8
 org {addr_win_main_menus}; incbin window_main_menus.bin
+org $261C2; db $07 // main menu cursor
 // Expand items menu
 org $12AC; db $03 // move 2 tiles left
 org $12B4; db $17 // add 2 tiles wide
